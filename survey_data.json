@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question_text": "How satisfied are you with our product?",
+      "question_type": "scale",
+      "options": {
+        "min": 1,
+        "max": 5,
+        "labels": [
+          "Very Dissatisfied",
+          "Dissatisfied",
+          "Neutral",
+          "Satisfied",
+          "Very Satisfied"
+        ]
+      },
+      "difficulty": 2.0,
+      "category": "Satisfaction",
+      "tags": [
+        "product",
+        "satisfaction",
+        "rating"
+      ],
+      "usage_count": 0
+    },
+    {
+      "id": 2,
+      "question_text": "How did you first hear about our product?",
+      "question_type": "multiple_choice",
+      "options": [
+        "Friend Recommendation",
+        "Social Media",
+        "Advertisement",
+        "Search Engine",
+        "Other"
+      ],
+      "difficulty": 1.5,
+      "category": "Channel",
+      "tags": [
+        "channel",
+        "marketing",
+        "awareness"
+      ],
+      "usage_count": 0
+    },
+    {
+      "id": 3,
+      "question_text": "How often do you use our product?",
+      "question_type": "single_choice",
+      "options": [
+        "Daily",
+        "Several times a week",
+        "Several times a month",
+        "Rarely"
+      ],
+      "difficulty": 1.0,
+      "category": "Usage",
+      "tags": [
+        "frequency",
+        "usage",
+        "behavior"
+      ],
+      "usage_count": 0
+    },
+    {
+      "id": 4,
+      "question_text": "Please describe your favorite product feature",
+      "question_type": "text",
+      "options": null,
+      "difficulty": 3.0,
+      "category": "Feedback",
+      "tags": [
+        "feature",
+        "feedback",
+        "text"
+      ],
+      "usage_count": 0
+    },
+    {
+      "id": 5,
+      "question_text": "How likely are you to recommend our product to others?",
+      "question_type": "scale",
+      "options": {
+        "min": 0,
+        "max": 10,
+        "labels": [
+          "Not at all likely",
+          "Extremely likely"
+        ]
+      },
+      "difficulty": 2.5,
+      "category": "Recommendation",
+      "tags": [
+        "recommendation",
+        "NPS",
+        "loyalty"
+      ],
+      "usage_count": 0
+    },
+    {
+      "question_text": "Do you think our product price is reasonable?",
+      "question_type": "single_choice",
+      "options": [
+        "Very reasonable",
+        "Reasonable",
+        "Neutral",
+        "Unreasonable"
+      ],
+      "difficulty": 2.0,
+      "category": "Price",
+      "tags": [
+        "price",
+        "value",
+        "reasonableness"
+      ],
+      "id": 6,
+      "usage_count": 1
+    }
+  ],
+  "questionnaires": [
+    {
+      "id": 1,
+      "title": "Product User Experience Survey",
+      "description": "Collect feedback on product user experience",
+      "target_audience": "Existing Users",
+      "requirements": {
+        "question_count": 5,
+        "categories": [
+          "Satisfaction",
+          "Usage",
+          "Recommendation"
+        ],
+        "difficulty_range": [
+          1.0,
+          3.0
+        ]
+      },
+      "question_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "draft"
+    },
+    {
+      "id": 2,
+      "title": "Price Satisfaction Survey",
+      "description": "Understand user opinions on product pricing",
+      "target_audience": "All Users",
+      "requirements": {
+        "question_count": 3,
+        "categories": [
+          "Price",
+          "Satisfaction"
+        ],
+        "difficulty_range": [
+          1.0,
+          2.5
+        ]
+      },
+      "question_ids": [
+        6
+      ],
+      "status": "draft"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@survey.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "email": "user1@survey.com",
+      "role": "user"
+    }
+  ]
+}
