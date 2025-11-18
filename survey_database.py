@@ -3,7 +3,7 @@ import os
 from typing import List, Dict, Any, Optional
 
 class SurveyDatabase:
-    def __init__(self, data_file: str = "survey_data.json"):
+    def __init__(self, data_file: str = "convert_data.json"):
         self.data_file = data_file
         self.data = self._load_data()
     
@@ -150,4 +150,5 @@ class SurveyDatabase:
             "total_users": len(users),
             "categories_distribution": categories,
             "question_types_distribution": question_types
+
         }
