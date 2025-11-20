@@ -1,0 +1,6354 @@
+{
+  "responses": [
+    {
+      "user_id": 1,
+      "question_id": 5911,
+      "answer": "不满意"
+    },
+    {
+      "user_id": 1,
+      "question_id": 1278,
+      "answer": "Airbnb"
+    },
+    {
+      "user_id": 1,
+      "question_id": 2019,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 1,
+      "question_id": 662,
+      "answer": "Non availability of service"
+    },
+    {
+      "user_id": 1,
+      "question_id": 2461,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 1,
+      "question_id": 5892,
+      "answer": "4"
+    },
+    {
+      "user_id": 1,
+      "question_id": 5504,
+      "answer": "身边朋友的邀请"
+    },
+    {
+      "user_id": 1,
+      "question_id": 4812,
+      "answer": "旅行社跟团"
+    },
+    {
+      "user_id": 1,
+      "question_id": 5799,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 1,
+      "question_id": 4390,
+      "answer": "4"
+    },
+    {
+      "user_id": 1,
+      "question_id": 4124,
+      "answer": "不进行购物"
+    },
+    {
+      "user_id": 1,
+      "question_id": 4928,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 1,
+      "question_id": 2571,
+      "answer": "How satisfied were you with the quality of the hotel's spa or other wellness facilities?"
+    },
+    {
+      "user_id": 1,
+      "question_id": 3834,
+      "answer": "Online booking platforms"
+    },
+    {
+      "user_id": 2,
+      "question_id": 4268,
+      "answer": "$0.3"
+    },
+    {
+      "user_id": 2,
+      "question_id": 2186,
+      "answer": "Hotel"
+    },
+    {
+      "user_id": 2,
+      "question_id": 5860,
+      "answer": "No"
+    },
+    {
+      "user_id": 2,
+      "question_id": 3528,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 2,
+      "question_id": 4402,
+      "answer": "1"
+    },
+    {
+      "user_id": 2,
+      "question_id": 9,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 2,
+      "question_id": 2629,
+      "answer": "Personal"
+    },
+    {
+      "user_id": 2,
+      "question_id": 1525,
+      "answer": "5"
+    },
+    {
+      "user_id": 2,
+      "question_id": 1460,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 2,
+      "question_id": 5535,
+      "answer": "No"
+    },
+    {
+      "user_id": 2,
+      "question_id": 4743,
+      "answer": "1"
+    },
+    {
+      "user_id": 2,
+      "question_id": 5704,
+      "answer": "Leisure"
+    },
+    {
+      "user_id": 2,
+      "question_id": 4877,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 2,
+      "question_id": 3676,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 3,
+      "question_id": 5832,
+      "answer": "4"
+    },
+    {
+      "user_id": 3,
+      "question_id": 3027,
+      "answer": "Hiking"
+    },
+    {
+      "user_id": 3,
+      "question_id": 5768,
+      "answer": "No"
+    },
+    {
+      "user_id": 3,
+      "question_id": 264,
+      "answer": "Shopping"
+    },
+    {
+      "user_id": 3,
+      "question_id": 5548,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 3,
+      "question_id": 1592,
+      "answer": "No"
+    },
+    {
+      "user_id": 3,
+      "question_id": 4888,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 3,
+      "question_id": 5281,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 3,
+      "question_id": 5479,
+      "answer": "5"
+    },
+    {
+      "user_id": 3,
+      "question_id": 149,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 3,
+      "question_id": 2548,
+      "answer": "3"
+    },
+    {
+      "user_id": 3,
+      "question_id": 1688,
+      "answer": "Eating local cuisine"
+    },
+    {
+      "user_id": 4,
+      "question_id": 5262,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 4,
+      "question_id": 5029,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 4,
+      "question_id": 3252,
+      "answer": "No"
+    },
+    {
+      "user_id": 4,
+      "question_id": 2903,
+      "answer": "7"
+    },
+    {
+      "user_id": 4,
+      "question_id": 4889,
+      "answer": "满意"
+    },
+    {
+      "user_id": 4,
+      "question_id": 634,
+      "answer": "Elevated noise inside the cabin   Sleep disturbance"
+    },
+    {
+      "user_id": 4,
+      "question_id": 228,
+      "answer": "2"
+    },
+    {
+      "user_id": 4,
+      "question_id": 515,
+      "answer": "4"
+    },
+    {
+      "user_id": 4,
+      "question_id": 3868,
+      "answer": "5"
+    },
+    {
+      "user_id": 4,
+      "question_id": 2671,
+      "answer": "No"
+    },
+    {
+      "user_id": 4,
+      "question_id": 217,
+      "answer": "No"
+    },
+    {
+      "user_id": 4,
+      "question_id": 3612,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 4,
+      "question_id": 1538,
+      "answer": "2"
+    },
+    {
+      "user_id": 4,
+      "question_id": 5394,
+      "answer": "4"
+    },
+    {
+      "user_id": 4,
+      "question_id": 4788,
+      "answer": "1"
+    },
+    {
+      "user_id": 5,
+      "question_id": 3870,
+      "answer": "Business"
+    },
+    {
+      "user_id": 5,
+      "question_id": 4519,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 5,
+      "question_id": 1835,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 5,
+      "question_id": 5405,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 5,
+      "question_id": 5414,
+      "answer": "No"
+    },
+    {
+      "user_id": 5,
+      "question_id": 4120,
+      "answer": "自行购买"
+    },
+    {
+      "user_id": 5,
+      "question_id": 599,
+      "answer": "9"
+    },
+    {
+      "user_id": 5,
+      "question_id": 5558,
+      "answer": "6"
+    },
+    {
+      "user_id": 5,
+      "question_id": 1045,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 5,
+      "question_id": 1054,
+      "answer": "Other"
+    },
+    {
+      "user_id": 5,
+      "question_id": 1799,
+      "answer": "More than 5 times a year"
+    },
+    {
+      "user_id": 5,
+      "question_id": 4181,
+      "answer": "5"
+    },
+    {
+      "user_id": 6,
+      "question_id": 5114,
+      "answer": "3"
+    },
+    {
+      "user_id": 6,
+      "question_id": 4207,
+      "answer": "No"
+    },
+    {
+      "user_id": 6,
+      "question_id": 1760,
+      "answer": "比较满意"
+    },
+    {
+      "user_id": 6,
+      "question_id": 2580,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 6,
+      "question_id": 4422,
+      "answer": "By plane"
+    },
+    {
+      "user_id": 6,
+      "question_id": 1222,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 6,
+      "question_id": 4459,
+      "answer": "tea"
+    },
+    {
+      "user_id": 6,
+      "question_id": 225,
+      "answer": "No"
+    },
+    {
+      "user_id": 6,
+      "question_id": 2583,
+      "answer": "Other"
+    },
+    {
+      "user_id": 6,
+      "question_id": 667,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 6,
+      "question_id": 2676,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 7,
+      "question_id": 5504,
+      "answer": "一些常见APP的影响，如微博、微信公众号、小红书等"
+    },
+    {
+      "user_id": 7,
+      "question_id": 3300,
+      "answer": "Speed"
+    },
+    {
+      "user_id": 7,
+      "question_id": 203,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 7,
+      "question_id": 214,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 7,
+      "question_id": 5449,
+      "answer": "9"
+    },
+    {
+      "user_id": 7,
+      "question_id": 2224,
+      "answer": "6"
+    },
+    {
+      "user_id": 7,
+      "question_id": 3081,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 7,
+      "question_id": 2462,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 7,
+      "question_id": 2193,
+      "answer": "No"
+    },
+    {
+      "user_id": 7,
+      "question_id": 1587,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 7,
+      "question_id": 4767,
+      "answer": "No"
+    },
+    {
+      "user_id": 7,
+      "question_id": 5399,
+      "answer": "2"
+    },
+    {
+      "user_id": 7,
+      "question_id": 4749,
+      "answer": "5"
+    },
+    {
+      "user_id": 7,
+      "question_id": 5377,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 7,
+      "question_id": 131,
+      "answer": "5"
+    },
+    {
+      "user_id": 8,
+      "question_id": 5435,
+      "answer": "Accompany family member on business"
+    },
+    {
+      "user_id": 8,
+      "question_id": 4477,
+      "answer": "Airbnb"
+    },
+    {
+      "user_id": 8,
+      "question_id": 4987,
+      "answer": "0"
+    },
+    {
+      "user_id": 8,
+      "question_id": 2088,
+      "answer": "8"
+    },
+    {
+      "user_id": 8,
+      "question_id": 770,
+      "answer": "在导游推荐下购买"
+    },
+    {
+      "user_id": 8,
+      "question_id": 1060,
+      "answer": "3"
+    },
+    {
+      "user_id": 8,
+      "question_id": 3749,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 8,
+      "question_id": 5399,
+      "answer": "7"
+    },
+    {
+      "user_id": 8,
+      "question_id": 5474,
+      "answer": "Sightseeing"
+    },
+    {
+      "user_id": 8,
+      "question_id": 1747,
+      "answer": "No"
+    },
+    {
+      "user_id": 9,
+      "question_id": 2777,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 9,
+      "question_id": 842,
+      "answer": "6"
+    },
+    {
+      "user_id": 9,
+      "question_id": 5747,
+      "answer": "City"
+    },
+    {
+      "user_id": 9,
+      "question_id": 2076,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 9,
+      "question_id": 131,
+      "answer": "2"
+    },
+    {
+      "user_id": 9,
+      "question_id": 2926,
+      "answer": "7"
+    },
+    {
+      "user_id": 9,
+      "question_id": 2322,
+      "answer": "6"
+    },
+    {
+      "user_id": 9,
+      "question_id": 1388,
+      "answer": "5"
+    },
+    {
+      "user_id": 9,
+      "question_id": 3406,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 9,
+      "question_id": 869,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 10,
+      "question_id": 5955,
+      "answer": "6"
+    },
+    {
+      "user_id": 10,
+      "question_id": 1690,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 10,
+      "question_id": 4825,
+      "answer": "6"
+    },
+    {
+      "user_id": 10,
+      "question_id": 1521,
+      "answer": "Poor"
+    },
+    {
+      "user_id": 10,
+      "question_id": 79,
+      "answer": "Personal"
+    },
+    {
+      "user_id": 10,
+      "question_id": 2076,
+      "answer": "7"
+    },
+    {
+      "user_id": 10,
+      "question_id": 5385,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 10,
+      "question_id": 1294,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 10,
+      "question_id": 1389,
+      "answer": "10"
+    },
+    {
+      "user_id": 10,
+      "question_id": 5524,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 10,
+      "question_id": 1969,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 10,
+      "question_id": 3526,
+      "answer": "visit customer or vendor)"
+    },
+    {
+      "user_id": 10,
+      "question_id": 1428,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 10,
+      "question_id": 413,
+      "answer": "6"
+    },
+    {
+      "user_id": 10,
+      "question_id": 1487,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 11,
+      "question_id": 2445,
+      "answer": "1"
+    },
+    {
+      "user_id": 11,
+      "question_id": 4422,
+      "answer": "Airbnb"
+    },
+    {
+      "user_id": 11,
+      "question_id": 177,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 11,
+      "question_id": 3446,
+      "answer": "7"
+    },
+    {
+      "user_id": 11,
+      "question_id": 5842,
+      "answer": "2"
+    },
+    {
+      "user_id": 11,
+      "question_id": 4095,
+      "answer": "Hiking"
+    },
+    {
+      "user_id": 11,
+      "question_id": 719,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 11,
+      "question_id": 845,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 11,
+      "question_id": 5907,
+      "answer": "No"
+    },
+    {
+      "user_id": 11,
+      "question_id": 3271,
+      "answer": "2"
+    },
+    {
+      "user_id": 11,
+      "question_id": 640,
+      "answer": "Business calls"
+    },
+    {
+      "user_id": 11,
+      "question_id": 920,
+      "answer": "不会去尝试"
+    },
+    {
+      "user_id": 11,
+      "question_id": 3235,
+      "answer": "5"
+    },
+    {
+      "user_id": 12,
+      "question_id": 1778,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 12,
+      "question_id": 4827,
+      "answer": "8"
+    },
+    {
+      "user_id": 12,
+      "question_id": 2226,
+      "answer": "5"
+    },
+    {
+      "user_id": 12,
+      "question_id": 326,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 12,
+      "question_id": 3649,
+      "answer": "Eating local cuisine"
+    },
+    {
+      "user_id": 12,
+      "question_id": 5479,
+      "answer": "5"
+    },
+    {
+      "user_id": 12,
+      "question_id": 5553,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 12,
+      "question_id": 2614,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 12,
+      "question_id": 5526,
+      "answer": "Through travel agency"
+    },
+    {
+      "user_id": 12,
+      "question_id": 3206,
+      "answer": "Good"
+    },
+    {
+      "user_id": 12,
+      "question_id": 2265,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 12,
+      "question_id": 4442,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 12,
+      "question_id": 86,
+      "answer": "Skycap"
+    },
+    {
+      "user_id": 12,
+      "question_id": 1030,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 12,
+      "question_id": 5616,
+      "answer": "No"
+    },
+    {
+      "user_id": 13,
+      "question_id": 5440,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 13,
+      "question_id": 1691,
+      "answer": "Average"
+    },
+    {
+      "user_id": 13,
+      "question_id": 1139,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 13,
+      "question_id": 2514,
+      "answer": "Were social media or influencer posts a factor in your decision?"
+    },
+    {
+      "user_id": 13,
+      "question_id": 3420,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 13,
+      "question_id": 5517,
+      "answer": "10"
+    },
+    {
+      "user_id": 13,
+      "question_id": 1770,
+      "answer": "$1.0"
+    },
+    {
+      "user_id": 13,
+      "question_id": 3277,
+      "answer": "5"
+    },
+    {
+      "user_id": 13,
+      "question_id": 1464,
+      "answer": "Personal"
+    },
+    {
+      "user_id": 13,
+      "question_id": 5439,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 14,
+      "question_id": 624,
+      "answer": "Business"
+    },
+    {
+      "user_id": 14,
+      "question_id": 5857,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 14,
+      "question_id": 2371,
+      "answer": "3-5 times a year"
+    },
+    {
+      "user_id": 14,
+      "question_id": 5515,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 14,
+      "question_id": 3392,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 14,
+      "question_id": 775,
+      "answer": "Camping"
+    },
+    {
+      "user_id": 14,
+      "question_id": 3459,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 14,
+      "question_id": 712,
+      "answer": "特色酒店"
+    },
+    {
+      "user_id": 14,
+      "question_id": 5083,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 14,
+      "question_id": 4762,
+      "answer": "9"
+    },
+    {
+      "user_id": 14,
+      "question_id": 4691,
+      "answer": "4"
+    },
+    {
+      "user_id": 14,
+      "question_id": 1689,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 15,
+      "question_id": 1121,
+      "answer": "No"
+    },
+    {
+      "user_id": 15,
+      "question_id": 3215,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 15,
+      "question_id": 2209,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 15,
+      "question_id": 2475,
+      "answer": "4"
+    },
+    {
+      "user_id": 15,
+      "question_id": 5010,
+      "answer": "Average"
+    },
+    {
+      "user_id": 15,
+      "question_id": 1503,
+      "answer": "Both"
+    },
+    {
+      "user_id": 15,
+      "question_id": 5772,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 15,
+      "question_id": 4696,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 15,
+      "question_id": 3269,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 15,
+      "question_id": 2677,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 15,
+      "question_id": 760,
+      "answer": "Poor"
+    },
+    {
+      "user_id": 15,
+      "question_id": 4429,
+      "answer": "6"
+    },
+    {
+      "user_id": 15,
+      "question_id": 3464,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 15,
+      "question_id": 5517,
+      "answer": "6"
+    },
+    {
+      "user_id": 15,
+      "question_id": 832,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 16,
+      "question_id": 2198,
+      "answer": "3"
+    },
+    {
+      "user_id": 16,
+      "question_id": 1985,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 16,
+      "question_id": 2480,
+      "answer": "8"
+    },
+    {
+      "user_id": 16,
+      "question_id": 4211,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 16,
+      "question_id": 1208,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 16,
+      "question_id": 2486,
+      "answer": "More than 5 times a year"
+    },
+    {
+      "user_id": 16,
+      "question_id": 596,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 16,
+      "question_id": 2026,
+      "answer": "3-5 times a year"
+    },
+    {
+      "user_id": 16,
+      "question_id": 845,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 16,
+      "question_id": 3936,
+      "answer": "2"
+    },
+    {
+      "user_id": 16,
+      "question_id": 1289,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 16,
+      "question_id": 266,
+      "answer": "Online booking platforms"
+    },
+    {
+      "user_id": 16,
+      "question_id": 4333,
+      "answer": "More than 5 times a year"
+    },
+    {
+      "user_id": 16,
+      "question_id": 4825,
+      "answer": "3"
+    },
+    {
+      "user_id": 17,
+      "question_id": 2455,
+      "answer": "In-flight internet with VOIP"
+    },
+    {
+      "user_id": 17,
+      "question_id": 3796,
+      "answer": "9"
+    },
+    {
+      "user_id": 17,
+      "question_id": 5792,
+      "answer": "0"
+    },
+    {
+      "user_id": 17,
+      "question_id": 185,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 17,
+      "question_id": 931,
+      "answer": "Other"
+    },
+    {
+      "user_id": 17,
+      "question_id": 5255,
+      "answer": "Value for money"
+    },
+    {
+      "user_id": 17,
+      "question_id": 4021,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 17,
+      "question_id": 1254,
+      "answer": "9"
+    },
+    {
+      "user_id": 17,
+      "question_id": 5859,
+      "answer": "10"
+    },
+    {
+      "user_id": 17,
+      "question_id": 266,
+      "answer": "Shopping"
+    },
+    {
+      "user_id": 17,
+      "question_id": 4280,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 18,
+      "question_id": 4614,
+      "answer": "有钱有闲"
+    },
+    {
+      "user_id": 18,
+      "question_id": 1559,
+      "answer": "8"
+    },
+    {
+      "user_id": 18,
+      "question_id": 5403,
+      "answer": "6"
+    },
+    {
+      "user_id": 18,
+      "question_id": 1797,
+      "answer": "$0.4"
+    },
+    {
+      "user_id": 18,
+      "question_id": 1902,
+      "answer": "Were travel promotions or discounts important in your decision?"
+    },
+    {
+      "user_id": 18,
+      "question_id": 5862,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 18,
+      "question_id": 5638,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 18,
+      "question_id": 3628,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 18,
+      "question_id": 4725,
+      "answer": "5"
+    },
+    {
+      "user_id": 18,
+      "question_id": 5923,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 18,
+      "question_id": 5143,
+      "answer": "自由度高 / 旅行设计更加个性化"
+    },
+    {
+      "user_id": 18,
+      "question_id": 1319,
+      "answer": "5"
+    },
+    {
+      "user_id": 18,
+      "question_id": 169,
+      "answer": "5"
+    },
+    {
+      "user_id": 19,
+      "question_id": 3649,
+      "answer": "Shopping"
+    },
+    {
+      "user_id": 19,
+      "question_id": 4932,
+      "answer": "Through travel agency"
+    },
+    {
+      "user_id": 19,
+      "question_id": 1131,
+      "answer": "0"
+    },
+    {
+      "user_id": 19,
+      "question_id": 2049,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 19,
+      "question_id": 3711,
+      "answer": "First Class"
+    },
+    {
+      "user_id": 19,
+      "question_id": 1743,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 19,
+      "question_id": 3408,
+      "answer": "No"
+    },
+    {
+      "user_id": 19,
+      "question_id": 1914,
+      "answer": "2"
+    },
+    {
+      "user_id": 19,
+      "question_id": 3923,
+      "answer": "了解一点点"
+    },
+    {
+      "user_id": 19,
+      "question_id": 967,
+      "answer": "10"
+    },
+    {
+      "user_id": 19,
+      "question_id": 1681,
+      "answer": "1"
+    },
+    {
+      "user_id": 20,
+      "question_id": 5503,
+      "answer": "No"
+    },
+    {
+      "user_id": 20,
+      "question_id": 388,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 20,
+      "question_id": 446,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 20,
+      "question_id": 559,
+      "answer": "5"
+    },
+    {
+      "user_id": 20,
+      "question_id": 1285,
+      "answer": "Hiking"
+    },
+    {
+      "user_id": 20,
+      "question_id": 426,
+      "answer": "0"
+    },
+    {
+      "user_id": 20,
+      "question_id": 735,
+      "answer": "非常不满意"
+    },
+    {
+      "user_id": 20,
+      "question_id": 3101,
+      "answer": "一对一贴心管家服务 / 高端化 / 自由度高"
+    },
+    {
+      "user_id": 20,
+      "question_id": 4685,
+      "answer": "Good"
+    },
+    {
+      "user_id": 20,
+      "question_id": 2253,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 21,
+      "question_id": 1133,
+      "answer": "No"
+    },
+    {
+      "user_id": 21,
+      "question_id": 2533,
+      "answer": "No"
+    },
+    {
+      "user_id": 21,
+      "question_id": 2854,
+      "answer": "1"
+    },
+    {
+      "user_id": 21,
+      "question_id": 3842,
+      "answer": "3"
+    },
+    {
+      "user_id": 21,
+      "question_id": 5310,
+      "answer": "3"
+    },
+    {
+      "user_id": 21,
+      "question_id": 5547,
+      "answer": "Hiking"
+    },
+    {
+      "user_id": 21,
+      "question_id": 5467,
+      "answer": "Track performance by department"
+    },
+    {
+      "user_id": 21,
+      "question_id": 4468,
+      "answer": "9"
+    },
+    {
+      "user_id": 21,
+      "question_id": 3905,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 21,
+      "question_id": 5254,
+      "answer": "2"
+    },
+    {
+      "user_id": 21,
+      "question_id": 1391,
+      "answer": "No"
+    },
+    {
+      "user_id": 22,
+      "question_id": 5729,
+      "answer": "9"
+    },
+    {
+      "user_id": 22,
+      "question_id": 664,
+      "answer": "Browsing"
+    },
+    {
+      "user_id": 22,
+      "question_id": 4931,
+      "answer": "4"
+    },
+    {
+      "user_id": 22,
+      "question_id": 163,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 22,
+      "question_id": 986,
+      "answer": "0"
+    },
+    {
+      "user_id": 22,
+      "question_id": 572,
+      "answer": "4"
+    },
+    {
+      "user_id": 22,
+      "question_id": 1712,
+      "answer": "非常不满意"
+    },
+    {
+      "user_id": 22,
+      "question_id": 2893,
+      "answer": "Beach"
+    },
+    {
+      "user_id": 22,
+      "question_id": 3486,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 22,
+      "question_id": 2305,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 22,
+      "question_id": 160,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 22,
+      "question_id": 1725,
+      "answer": "非常不满意"
+    },
+    {
+      "user_id": 22,
+      "question_id": 2962,
+      "answer": "3"
+    },
+    {
+      "user_id": 22,
+      "question_id": 725,
+      "answer": "无所谓"
+    },
+    {
+      "user_id": 22,
+      "question_id": 418,
+      "answer": "3"
+    },
+    {
+      "user_id": 23,
+      "question_id": 992,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 23,
+      "question_id": 1248,
+      "answer": "4"
+    },
+    {
+      "user_id": 23,
+      "question_id": 4487,
+      "answer": "Excellent"
+    },
+    {
+      "user_id": 23,
+      "question_id": 2883,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 23,
+      "question_id": 3411,
+      "answer": "City"
+    },
+    {
+      "user_id": 23,
+      "question_id": 1489,
+      "answer": "4"
+    },
+    {
+      "user_id": 23,
+      "question_id": 3407,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 23,
+      "question_id": 1504,
+      "answer": "Checking email’s"
+    },
+    {
+      "user_id": 23,
+      "question_id": 1671,
+      "answer": "9"
+    },
+    {
+      "user_id": 23,
+      "question_id": 1180,
+      "answer": "不进行购物"
+    },
+    {
+      "user_id": 23,
+      "question_id": 2768,
+      "answer": "0"
+    },
+    {
+      "user_id": 23,
+      "question_id": 1668,
+      "answer": "Business"
+    },
+    {
+      "user_id": 23,
+      "question_id": 4677,
+      "answer": "8"
+    },
+    {
+      "user_id": 23,
+      "question_id": 3964,
+      "answer": "10"
+    },
+    {
+      "user_id": 24,
+      "question_id": 3759,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 24,
+      "question_id": 1410,
+      "answer": "3"
+    },
+    {
+      "user_id": 24,
+      "question_id": 3217,
+      "answer": "Through travel agency"
+    },
+    {
+      "user_id": 24,
+      "question_id": 5088,
+      "answer": "一般"
+    },
+    {
+      "user_id": 24,
+      "question_id": 228,
+      "answer": "2"
+    },
+    {
+      "user_id": 24,
+      "question_id": 5788,
+      "answer": "No"
+    },
+    {
+      "user_id": 24,
+      "question_id": 687,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 24,
+      "question_id": 1923,
+      "answer": "No"
+    },
+    {
+      "user_id": 24,
+      "question_id": 1902,
+      "answer": "What was the main reason you chose this destination?"
+    },
+    {
+      "user_id": 24,
+      "question_id": 86,
+      "answer": "Flight attendant (during boarding)"
+    },
+    {
+      "user_id": 24,
+      "question_id": 777,
+      "answer": "0"
+    },
+    {
+      "user_id": 24,
+      "question_id": 2101,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 24,
+      "question_id": 5252,
+      "answer": "表演"
+    },
+    {
+      "user_id": 24,
+      "question_id": 3852,
+      "answer": "1"
+    },
+    {
+      "user_id": 24,
+      "question_id": 3850,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 25,
+      "question_id": 5864,
+      "answer": "More than 5 times a year"
+    },
+    {
+      "user_id": 25,
+      "question_id": 1061,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 25,
+      "question_id": 4046,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 25,
+      "question_id": 646,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 25,
+      "question_id": 5770,
+      "answer": "3"
+    },
+    {
+      "user_id": 25,
+      "question_id": 4466,
+      "answer": "Poor"
+    },
+    {
+      "user_id": 25,
+      "question_id": 4638,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 25,
+      "question_id": 2879,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 25,
+      "question_id": 2922,
+      "answer": "3"
+    },
+    {
+      "user_id": 25,
+      "question_id": 3804,
+      "answer": "Pleasure"
+    },
+    {
+      "user_id": 25,
+      "question_id": 2649,
+      "answer": "Shopping"
+    },
+    {
+      "user_id": 25,
+      "question_id": 246,
+      "answer": "3-5 times a year"
+    },
+    {
+      "user_id": 25,
+      "question_id": 4657,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 25,
+      "question_id": 2213,
+      "answer": "3次以上"
+    },
+    {
+      "user_id": 25,
+      "question_id": 2205,
+      "answer": "Leisure"
+    },
+    {
+      "user_id": 26,
+      "question_id": 2987,
+      "answer": "No"
+    },
+    {
+      "user_id": 26,
+      "question_id": 2890,
+      "answer": "No"
+    },
+    {
+      "user_id": 26,
+      "question_id": 17,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 26,
+      "question_id": 2508,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 26,
+      "question_id": 2455,
+      "answer": "Mobile telephone"
+    },
+    {
+      "user_id": 26,
+      "question_id": 343,
+      "answer": "8"
+    },
+    {
+      "user_id": 26,
+      "question_id": 3555,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 26,
+      "question_id": 5084,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 26,
+      "question_id": 1847,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 26,
+      "question_id": 1638,
+      "answer": "不满意"
+    },
+    {
+      "user_id": 26,
+      "question_id": 1831,
+      "answer": "City"
+    },
+    {
+      "user_id": 26,
+      "question_id": 1064,
+      "answer": "Countryside"
+    },
+    {
+      "user_id": 26,
+      "question_id": 3731,
+      "answer": "Hotel"
+    },
+    {
+      "user_id": 26,
+      "question_id": 2250,
+      "answer": "Good"
+    },
+    {
+      "user_id": 26,
+      "question_id": 1258,
+      "answer": "trade show"
+    },
+    {
+      "user_id": 27,
+      "question_id": 1195,
+      "answer": "No"
+    },
+    {
+      "user_id": 27,
+      "question_id": 3101,
+      "answer": "一对一贴心管家服务 / 旅行体验更加丰富 / 旅行设计更加个性化"
+    },
+    {
+      "user_id": 27,
+      "question_id": 3559,
+      "answer": "5"
+    },
+    {
+      "user_id": 27,
+      "question_id": 963,
+      "answer": "6"
+    },
+    {
+      "user_id": 27,
+      "question_id": 1415,
+      "answer": "5"
+    },
+    {
+      "user_id": 27,
+      "question_id": 5119,
+      "answer": "1-2 times a year"
+    },
+    {
+      "user_id": 27,
+      "question_id": 87,
+      "answer": "No"
+    },
+    {
+      "user_id": 27,
+      "question_id": 3873,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 27,
+      "question_id": 4862,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 27,
+      "question_id": 4734,
+      "answer": "Price"
+    },
+    {
+      "user_id": 27,
+      "question_id": 1751,
+      "answer": "No"
+    },
+    {
+      "user_id": 27,
+      "question_id": 1831,
+      "answer": "Sightseeing"
+    },
+    {
+      "user_id": 27,
+      "question_id": 586,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 28,
+      "question_id": 2392,
+      "answer": "Hiking"
+    },
+    {
+      "user_id": 28,
+      "question_id": 243,
+      "answer": "Vacation rental"
+    },
+    {
+      "user_id": 28,
+      "question_id": 4090,
+      "answer": "满意"
+    },
+    {
+      "user_id": 28,
+      "question_id": 5241,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 28,
+      "question_id": 2250,
+      "answer": "Good"
+    },
+    {
+      "user_id": 28,
+      "question_id": 4407,
+      "answer": "Poor"
+    },
+    {
+      "user_id": 28,
+      "question_id": 1457,
+      "answer": "3"
+    },
+    {
+      "user_id": 28,
+      "question_id": 2285,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 28,
+      "question_id": 938,
+      "answer": "4"
+    },
+    {
+      "user_id": 28,
+      "question_id": 1448,
+      "answer": "非常满意"
+    },
+    {
+      "user_id": 28,
+      "question_id": 1330,
+      "answer": "No"
+    },
+    {
+      "user_id": 28,
+      "question_id": 5361,
+      "answer": "No"
+    },
+    {
+      "user_id": 28,
+      "question_id": 2175,
+      "answer": "Reviews"
+    },
+    {
+      "user_id": 29,
+      "question_id": 4923,
+      "answer": "6"
+    },
+    {
+      "user_id": 29,
+      "question_id": 5558,
+      "answer": "8"
+    },
+    {
+      "user_id": 29,
+      "question_id": 1033,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 29,
+      "question_id": 5555,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 29,
+      "question_id": 2192,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 29,
+      "question_id": 3480,
+      "answer": "Online booking platforms"
+    },
+    {
+      "user_id": 29,
+      "question_id": 1387,
+      "answer": "3"
+    },
+    {
+      "user_id": 29,
+      "question_id": 1341,
+      "answer": "4"
+    },
+    {
+      "user_id": 29,
+      "question_id": 5100,
+      "answer": "City"
+    },
+    {
+      "user_id": 29,
+      "question_id": 2735,
+      "answer": "By plane"
+    },
+    {
+      "user_id": 29,
+      "question_id": 2605,
+      "answer": "体验过定制旅游产品"
+    },
+    {
+      "user_id": 29,
+      "question_id": 1397,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 29,
+      "question_id": 1237,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 30,
+      "question_id": 5771,
+      "answer": "No"
+    },
+    {
+      "user_id": 30,
+      "question_id": 30,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 30,
+      "question_id": 2068,
+      "answer": "Online booking platforms"
+    },
+    {
+      "user_id": 30,
+      "question_id": 1215,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 30,
+      "question_id": 5487,
+      "answer": "1"
+    },
+    {
+      "user_id": 30,
+      "question_id": 2536,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 30,
+      "question_id": 2271,
+      "answer": "How important was safety when selecting your destination?"
+    },
+    {
+      "user_id": 30,
+      "question_id": 1016,
+      "answer": "10"
+    },
+    {
+      "user_id": 30,
+      "question_id": 1277,
+      "answer": "No"
+    },
+    {
+      "user_id": 30,
+      "question_id": 2343,
+      "answer": "3"
+    },
+    {
+      "user_id": 30,
+      "question_id": 529,
+      "answer": "No"
+    },
+    {
+      "user_id": 30,
+      "question_id": 4541,
+      "answer": "$0.5"
+    },
+    {
+      "user_id": 30,
+      "question_id": 851,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 30,
+      "question_id": 1352,
+      "answer": "No"
+    },
+    {
+      "user_id": 31,
+      "question_id": 2517,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 31,
+      "question_id": 3384,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 31,
+      "question_id": 515,
+      "answer": "1"
+    },
+    {
+      "user_id": 31,
+      "question_id": 3042,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 31,
+      "question_id": 4121,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 31,
+      "question_id": 2553,
+      "answer": "Mountains"
+    },
+    {
+      "user_id": 31,
+      "question_id": 4805,
+      "answer": "6"
+    },
+    {
+      "user_id": 31,
+      "question_id": 3038,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 31,
+      "question_id": 1885,
+      "answer": "Both"
+    },
+    {
+      "user_id": 31,
+      "question_id": 3341,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 31,
+      "question_id": 1388,
+      "answer": "3"
+    },
+    {
+      "user_id": 31,
+      "question_id": 5336,
+      "answer": "Hostel"
+    },
+    {
+      "user_id": 31,
+      "question_id": 1924,
+      "answer": "6"
+    },
+    {
+      "user_id": 32,
+      "question_id": 177,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 32,
+      "question_id": 1670,
+      "answer": "City"
+    },
+    {
+      "user_id": 32,
+      "question_id": 377,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 32,
+      "question_id": 769,
+      "answer": "10"
+    },
+    {
+      "user_id": 32,
+      "question_id": 5814,
+      "answer": "plant or attend a company meeting)"
+    },
+    {
+      "user_id": 32,
+      "question_id": 3503,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 32,
+      "question_id": 356,
+      "answer": "No"
+    },
+    {
+      "user_id": 32,
+      "question_id": 1559,
+      "answer": "5"
+    },
+    {
+      "user_id": 32,
+      "question_id": 5357,
+      "answer": "1"
+    },
+    {
+      "user_id": 32,
+      "question_id": 3470,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 32,
+      "question_id": 2301,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 32,
+      "question_id": 5264,
+      "answer": "不满意"
+    },
+    {
+      "user_id": 32,
+      "question_id": 5087,
+      "answer": "7"
+    },
+    {
+      "user_id": 32,
+      "question_id": 2331,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 33,
+      "question_id": 4396,
+      "answer": "8"
+    },
+    {
+      "user_id": 33,
+      "question_id": 3812,
+      "answer": "No"
+    },
+    {
+      "user_id": 33,
+      "question_id": 1668,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 33,
+      "question_id": 3385,
+      "answer": "Drove by our Local Office"
+    },
+    {
+      "user_id": 33,
+      "question_id": 5674,
+      "answer": "Countryside"
+    },
+    {
+      "user_id": 33,
+      "question_id": 2772,
+      "answer": "3"
+    },
+    {
+      "user_id": 33,
+      "question_id": 4556,
+      "answer": "4"
+    },
+    {
+      "user_id": 33,
+      "question_id": 4282,
+      "answer": "No"
+    },
+    {
+      "user_id": 33,
+      "question_id": 3250,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 33,
+      "question_id": 5139,
+      "answer": "Average"
+    },
+    {
+      "user_id": 33,
+      "question_id": 1991,
+      "answer": "3"
+    },
+    {
+      "user_id": 33,
+      "question_id": 2733,
+      "answer": "0"
+    },
+    {
+      "user_id": 33,
+      "question_id": 2346,
+      "answer": "9"
+    },
+    {
+      "user_id": 33,
+      "question_id": 3938,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 34,
+      "question_id": 5965,
+      "answer": "Business"
+    },
+    {
+      "user_id": 34,
+      "question_id": 661,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 34,
+      "question_id": 5158,
+      "answer": "10"
+    },
+    {
+      "user_id": 34,
+      "question_id": 4791,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 34,
+      "question_id": 3817,
+      "answer": "7"
+    },
+    {
+      "user_id": 34,
+      "question_id": 257,
+      "answer": "Countryside"
+    },
+    {
+      "user_id": 34,
+      "question_id": 3176,
+      "answer": "Excellent"
+    },
+    {
+      "user_id": 34,
+      "question_id": 4045,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 34,
+      "question_id": 2907,
+      "answer": "非常不满意"
+    },
+    {
+      "user_id": 34,
+      "question_id": 3312,
+      "answer": "8"
+    },
+    {
+      "user_id": 34,
+      "question_id": 1076,
+      "answer": "Less than once a year"
+    },
+    {
+      "user_id": 34,
+      "question_id": 284,
+      "answer": "Excellent"
+    },
+    {
+      "user_id": 34,
+      "question_id": 3104,
+      "answer": "No"
+    },
+    {
+      "user_id": 34,
+      "question_id": 5197,
+      "answer": "Countryside"
+    },
+    {
+      "user_id": 35,
+      "question_id": 5422,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 35,
+      "question_id": 1874,
+      "answer": "No"
+    },
+    {
+      "user_id": 35,
+      "question_id": 5845,
+      "answer": "4"
+    },
+    {
+      "user_id": 35,
+      "question_id": 1816,
+      "answer": "External company business (sales call"
+    },
+    {
+      "user_id": 35,
+      "question_id": 611,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 35,
+      "question_id": 348,
+      "answer": "1"
+    },
+    {
+      "user_id": 35,
+      "question_id": 497,
+      "answer": "8"
+    },
+    {
+      "user_id": 35,
+      "question_id": 441,
+      "answer": "Which questions provide actionable insights"
+    },
+    {
+      "user_id": 35,
+      "question_id": 1831,
+      "answer": "Beach"
+    },
+    {
+      "user_id": 35,
+      "question_id": 1107,
+      "answer": "满意"
+    },
+    {
+      "user_id": 35,
+      "question_id": 5310,
+      "answer": "0"
+    },
+    {
+      "user_id": 35,
+      "question_id": 4757,
+      "answer": "旅行设计更加个性化 / 旅行体验更加丰富 / 高端化"
+    },
+    {
+      "user_id": 36,
+      "question_id": 3337,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 36,
+      "question_id": 2351,
+      "answer": "0"
+    },
+    {
+      "user_id": 36,
+      "question_id": 3626,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 36,
+      "question_id": 401,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 36,
+      "question_id": 1130,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 36,
+      "question_id": 3470,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 36,
+      "question_id": 1829,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 36,
+      "question_id": 4691,
+      "answer": "10"
+    },
+    {
+      "user_id": 36,
+      "question_id": 4720,
+      "answer": "Non availability of service"
+    },
+    {
+      "user_id": 36,
+      "question_id": 4524,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 36,
+      "question_id": 2427,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 36,
+      "question_id": 5495,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 36,
+      "question_id": 129,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 36,
+      "question_id": 5796,
+      "answer": "First Class"
+    },
+    {
+      "user_id": 37,
+      "question_id": 1361,
+      "answer": "No"
+    },
+    {
+      "user_id": 37,
+      "question_id": 985,
+      "answer": "Location"
+    },
+    {
+      "user_id": 37,
+      "question_id": 4889,
+      "answer": "不满意"
+    },
+    {
+      "user_id": 37,
+      "question_id": 4358,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 37,
+      "question_id": 5357,
+      "answer": "6"
+    },
+    {
+      "user_id": 37,
+      "question_id": 4549,
+      "answer": "First Class"
+    },
+    {
+      "user_id": 37,
+      "question_id": 497,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 37,
+      "question_id": 5502,
+      "answer": "No"
+    },
+    {
+      "user_id": 37,
+      "question_id": 1186,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 37,
+      "question_id": 1826,
+      "answer": "9"
+    },
+    {
+      "user_id": 38,
+      "question_id": 661,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 38,
+      "question_id": 122,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 38,
+      "question_id": 3660,
+      "answer": "3"
+    },
+    {
+      "user_id": 38,
+      "question_id": 3696,
+      "answer": "Excellent"
+    },
+    {
+      "user_id": 38,
+      "question_id": 2738,
+      "answer": "More than 5 times a year"
+    },
+    {
+      "user_id": 38,
+      "question_id": 789,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 38,
+      "question_id": 4932,
+      "answer": "City"
+    },
+    {
+      "user_id": 38,
+      "question_id": 4605,
+      "answer": "1"
+    },
+    {
+      "user_id": 38,
+      "question_id": 4514,
+      "answer": "No"
+    },
+    {
+      "user_id": 38,
+      "question_id": 2502,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 38,
+      "question_id": 3407,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 38,
+      "question_id": 5199,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 38,
+      "question_id": 2791,
+      "answer": "私人导游服务更加全面 / 拥有旅行私密空间 / 一对一贴心管家服务"
+    },
+    {
+      "user_id": 38,
+      "question_id": 3160,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 39,
+      "question_id": 2446,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 39,
+      "question_id": 4887,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 39,
+      "question_id": 4959,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 39,
+      "question_id": 160,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 39,
+      "question_id": 3115,
+      "answer": "No"
+    },
+    {
+      "user_id": 39,
+      "question_id": 3338,
+      "answer": "Through travel agency"
+    },
+    {
+      "user_id": 39,
+      "question_id": 5445,
+      "answer": "No"
+    },
+    {
+      "user_id": 39,
+      "question_id": 3347,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 39,
+      "question_id": 3075,
+      "answer": "5"
+    },
+    {
+      "user_id": 39,
+      "question_id": 956,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 40,
+      "question_id": 4947,
+      "answer": "3"
+    },
+    {
+      "user_id": 40,
+      "question_id": 2186,
+      "answer": "3-5 times a year"
+    },
+    {
+      "user_id": 40,
+      "question_id": 872,
+      "answer": "Airbnb"
+    },
+    {
+      "user_id": 40,
+      "question_id": 4428,
+      "answer": "身边朋友的邀请"
+    },
+    {
+      "user_id": 40,
+      "question_id": 2346,
+      "answer": "7"
+    },
+    {
+      "user_id": 40,
+      "question_id": 2587,
+      "answer": "City"
+    },
+    {
+      "user_id": 40,
+      "question_id": 2935,
+      "answer": "8"
+    },
+    {
+      "user_id": 40,
+      "question_id": 1387,
+      "answer": "10"
+    },
+    {
+      "user_id": 40,
+      "question_id": 4155,
+      "answer": "1"
+    },
+    {
+      "user_id": 40,
+      "question_id": 3103,
+      "answer": "Measure the impact of changes over time"
+    },
+    {
+      "user_id": 40,
+      "question_id": 5215,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 40,
+      "question_id": 1961,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 41,
+      "question_id": 5623,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 41,
+      "question_id": 1418,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 41,
+      "question_id": 3742,
+      "answer": "Poor"
+    },
+    {
+      "user_id": 41,
+      "question_id": 2262,
+      "answer": "一般"
+    },
+    {
+      "user_id": 41,
+      "question_id": 4216,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 41,
+      "question_id": 650,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 41,
+      "question_id": 1758,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 41,
+      "question_id": 3978,
+      "answer": "6"
+    },
+    {
+      "user_id": 41,
+      "question_id": 5591,
+      "answer": "3"
+    },
+    {
+      "user_id": 41,
+      "question_id": 1696,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 41,
+      "question_id": 2832,
+      "answer": "No"
+    },
+    {
+      "user_id": 41,
+      "question_id": 1072,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 42,
+      "question_id": 3310,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 42,
+      "question_id": 913,
+      "answer": "7"
+    },
+    {
+      "user_id": 42,
+      "question_id": 2567,
+      "answer": "第2次"
+    },
+    {
+      "user_id": 42,
+      "question_id": 4656,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 42,
+      "question_id": 3248,
+      "answer": "7"
+    },
+    {
+      "user_id": 42,
+      "question_id": 1340,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 42,
+      "question_id": 1920,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 42,
+      "question_id": 4184,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 42,
+      "question_id": 2747,
+      "answer": "Vacation rental"
+    },
+    {
+      "user_id": 42,
+      "question_id": 5253,
+      "answer": "6"
+    },
+    {
+      "user_id": 42,
+      "question_id": 1825,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 43,
+      "question_id": 1231,
+      "answer": "8"
+    },
+    {
+      "user_id": 43,
+      "question_id": 871,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 43,
+      "question_id": 1726,
+      "answer": "No"
+    },
+    {
+      "user_id": 43,
+      "question_id": 3192,
+      "answer": "4"
+    },
+    {
+      "user_id": 43,
+      "question_id": 3706,
+      "answer": "4"
+    },
+    {
+      "user_id": 43,
+      "question_id": 5546,
+      "answer": "10"
+    },
+    {
+      "user_id": 43,
+      "question_id": 4712,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 43,
+      "question_id": 4821,
+      "answer": "10"
+    },
+    {
+      "user_id": 43,
+      "question_id": 4753,
+      "answer": "No"
+    },
+    {
+      "user_id": 43,
+      "question_id": 5626,
+      "answer": "10"
+    },
+    {
+      "user_id": 43,
+      "question_id": 1712,
+      "answer": "不满意"
+    },
+    {
+      "user_id": 43,
+      "question_id": 1777,
+      "answer": "Shopping"
+    },
+    {
+      "user_id": 43,
+      "question_id": 2480,
+      "answer": "0"
+    },
+    {
+      "user_id": 43,
+      "question_id": 1568,
+      "answer": "6"
+    },
+    {
+      "user_id": 44,
+      "question_id": 4523,
+      "answer": "Poor"
+    },
+    {
+      "user_id": 44,
+      "question_id": 5281,
+      "answer": "First Class"
+    },
+    {
+      "user_id": 44,
+      "question_id": 5711,
+      "answer": "Online booking platforms"
+    },
+    {
+      "user_id": 44,
+      "question_id": 3870,
+      "answer": "Leisure"
+    },
+    {
+      "user_id": 44,
+      "question_id": 4200,
+      "answer": "No"
+    },
+    {
+      "user_id": 44,
+      "question_id": 2129,
+      "answer": "7"
+    },
+    {
+      "user_id": 44,
+      "question_id": 1829,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 44,
+      "question_id": 3727,
+      "answer": "No"
+    },
+    {
+      "user_id": 44,
+      "question_id": 853,
+      "answer": "8"
+    },
+    {
+      "user_id": 44,
+      "question_id": 3777,
+      "answer": "Leisure"
+    },
+    {
+      "user_id": 44,
+      "question_id": 3969,
+      "answer": "Less than once a year"
+    },
+    {
+      "user_id": 45,
+      "question_id": 5319,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 45,
+      "question_id": 127,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 45,
+      "question_id": 3942,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 45,
+      "question_id": 4634,
+      "answer": "No"
+    },
+    {
+      "user_id": 45,
+      "question_id": 1202,
+      "answer": "2"
+    },
+    {
+      "user_id": 45,
+      "question_id": 3036,
+      "answer": "Boarding gate agent(s)"
+    },
+    {
+      "user_id": 45,
+      "question_id": 4258,
+      "answer": "4"
+    },
+    {
+      "user_id": 45,
+      "question_id": 4979,
+      "answer": "Other"
+    },
+    {
+      "user_id": 45,
+      "question_id": 2959,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 45,
+      "question_id": 4883,
+      "answer": "9"
+    },
+    {
+      "user_id": 46,
+      "question_id": 2413,
+      "answer": "4"
+    },
+    {
+      "user_id": 46,
+      "question_id": 3611,
+      "answer": "No"
+    },
+    {
+      "user_id": 46,
+      "question_id": 2858,
+      "answer": "Lack of laptop"
+    },
+    {
+      "user_id": 46,
+      "question_id": 325,
+      "answer": "9"
+    },
+    {
+      "user_id": 46,
+      "question_id": 5606,
+      "answer": "convention"
+    },
+    {
+      "user_id": 46,
+      "question_id": 4308,
+      "answer": "No"
+    },
+    {
+      "user_id": 46,
+      "question_id": 4012,
+      "answer": "No"
+    },
+    {
+      "user_id": 46,
+      "question_id": 4755,
+      "answer": "8"
+    },
+    {
+      "user_id": 46,
+      "question_id": 5357,
+      "answer": "10"
+    },
+    {
+      "user_id": 46,
+      "question_id": 5214,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 46,
+      "question_id": 5421,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 46,
+      "question_id": 384,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 47,
+      "question_id": 2333,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 47,
+      "question_id": 18,
+      "answer": "2"
+    },
+    {
+      "user_id": 47,
+      "question_id": 4832,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 47,
+      "question_id": 3302,
+      "answer": "满意"
+    },
+    {
+      "user_id": 47,
+      "question_id": 3131,
+      "answer": "4"
+    },
+    {
+      "user_id": 47,
+      "question_id": 1402,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 47,
+      "question_id": 376,
+      "answer": "7"
+    },
+    {
+      "user_id": 47,
+      "question_id": 2328,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 47,
+      "question_id": 3221,
+      "answer": "满意"
+    },
+    {
+      "user_id": 47,
+      "question_id": 5212,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 47,
+      "question_id": 3817,
+      "answer": "3"
+    },
+    {
+      "user_id": 47,
+      "question_id": 2046,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 48,
+      "question_id": 5071,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 48,
+      "question_id": 2248,
+      "answer": "Good"
+    },
+    {
+      "user_id": 48,
+      "question_id": 3962,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 48,
+      "question_id": 4562,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 48,
+      "question_id": 1890,
+      "answer": "Incentive travel (company-paid pleasure trip)"
+    },
+    {
+      "user_id": 48,
+      "question_id": 2469,
+      "answer": "8"
+    },
+    {
+      "user_id": 48,
+      "question_id": 2722,
+      "answer": "非常满意"
+    },
+    {
+      "user_id": 48,
+      "question_id": 3901,
+      "answer": "1"
+    },
+    {
+      "user_id": 48,
+      "question_id": 2282,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 48,
+      "question_id": 3523,
+      "answer": "Both"
+    },
+    {
+      "user_id": 48,
+      "question_id": 1996,
+      "answer": "和定制师交流麻烦 / 体验感不足，主题感不强"
+    },
+    {
+      "user_id": 48,
+      "question_id": 1702,
+      "answer": "0"
+    },
+    {
+      "user_id": 48,
+      "question_id": 1744,
+      "answer": "1"
+    },
+    {
+      "user_id": 49,
+      "question_id": 4229,
+      "answer": "1"
+    },
+    {
+      "user_id": 49,
+      "question_id": 3344,
+      "answer": "No"
+    },
+    {
+      "user_id": 49,
+      "question_id": 3388,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 49,
+      "question_id": 3018,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 49,
+      "question_id": 714,
+      "answer": "人群聚集，影响出入和游览"
+    },
+    {
+      "user_id": 49,
+      "question_id": 5111,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 49,
+      "question_id": 1254,
+      "answer": "9"
+    },
+    {
+      "user_id": 49,
+      "question_id": 2002,
+      "answer": "5"
+    },
+    {
+      "user_id": 49,
+      "question_id": 4071,
+      "answer": "No"
+    },
+    {
+      "user_id": 49,
+      "question_id": 1691,
+      "answer": "Excellent"
+    },
+    {
+      "user_id": 49,
+      "question_id": 1926,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 49,
+      "question_id": 5473,
+      "answer": "9"
+    },
+    {
+      "user_id": 49,
+      "question_id": 78,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 49,
+      "question_id": 2132,
+      "answer": "9"
+    },
+    {
+      "user_id": 49,
+      "question_id": 4064,
+      "answer": "9"
+    },
+    {
+      "user_id": 50,
+      "question_id": 1056,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 50,
+      "question_id": 84,
+      "answer": "Curbside baggage check-in"
+    },
+    {
+      "user_id": 50,
+      "question_id": 2279,
+      "answer": "Other"
+    },
+    {
+      "user_id": 50,
+      "question_id": 2602,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 50,
+      "question_id": 5816,
+      "answer": "6"
+    },
+    {
+      "user_id": 50,
+      "question_id": 2779,
+      "answer": "5"
+    },
+    {
+      "user_id": 50,
+      "question_id": 3370,
+      "answer": "6"
+    },
+    {
+      "user_id": 50,
+      "question_id": 6000,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 50,
+      "question_id": 4516,
+      "answer": "1"
+    },
+    {
+      "user_id": 50,
+      "question_id": 5811,
+      "answer": "No"
+    },
+    {
+      "user_id": 50,
+      "question_id": 5243,
+      "answer": "10"
+    },
+    {
+      "user_id": 51,
+      "question_id": 3244,
+      "answer": "No"
+    },
+    {
+      "user_id": 51,
+      "question_id": 3554,
+      "answer": "Excellent"
+    },
+    {
+      "user_id": 51,
+      "question_id": 2230,
+      "answer": "No"
+    },
+    {
+      "user_id": 51,
+      "question_id": 3699,
+      "answer": "Average"
+    },
+    {
+      "user_id": 51,
+      "question_id": 3280,
+      "answer": "9"
+    },
+    {
+      "user_id": 51,
+      "question_id": 5950,
+      "answer": "9"
+    },
+    {
+      "user_id": 51,
+      "question_id": 3513,
+      "answer": "7"
+    },
+    {
+      "user_id": 51,
+      "question_id": 3868,
+      "answer": "7"
+    },
+    {
+      "user_id": 51,
+      "question_id": 2544,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 51,
+      "question_id": 1820,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 51,
+      "question_id": 5905,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 51,
+      "question_id": 1745,
+      "answer": "6"
+    },
+    {
+      "user_id": 51,
+      "question_id": 2248,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 51,
+      "question_id": 3165,
+      "answer": "No"
+    },
+    {
+      "user_id": 51,
+      "question_id": 3389,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 52,
+      "question_id": 2455,
+      "answer": "In-flight internet with VOIP"
+    },
+    {
+      "user_id": 52,
+      "question_id": 2184,
+      "answer": "Incentive travel (company-paid pleasure trip)"
+    },
+    {
+      "user_id": 52,
+      "question_id": 4665,
+      "answer": "Average"
+    },
+    {
+      "user_id": 52,
+      "question_id": 3504,
+      "answer": "Other business (not described above)"
+    },
+    {
+      "user_id": 52,
+      "question_id": 3882,
+      "answer": "5"
+    },
+    {
+      "user_id": 52,
+      "question_id": 5504,
+      "answer": "其他（请注明）"
+    },
+    {
+      "user_id": 52,
+      "question_id": 4990,
+      "answer": "1"
+    },
+    {
+      "user_id": 52,
+      "question_id": 939,
+      "answer": "7"
+    },
+    {
+      "user_id": 52,
+      "question_id": 5208,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 52,
+      "question_id": 608,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 53,
+      "question_id": 4626,
+      "answer": "Seat check-in counter"
+    },
+    {
+      "user_id": 53,
+      "question_id": 5803,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 53,
+      "question_id": 5023,
+      "answer": "First Class"
+    },
+    {
+      "user_id": 53,
+      "question_id": 5704,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 53,
+      "question_id": 3480,
+      "answer": "City"
+    },
+    {
+      "user_id": 53,
+      "question_id": 1134,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 53,
+      "question_id": 3750,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 53,
+      "question_id": 4605,
+      "answer": "0"
+    },
+    {
+      "user_id": 53,
+      "question_id": 4134,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 53,
+      "question_id": 4621,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 54,
+      "question_id": 2633,
+      "answer": "No"
+    },
+    {
+      "user_id": 54,
+      "question_id": 160,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 54,
+      "question_id": 3517,
+      "answer": "了解一点点"
+    },
+    {
+      "user_id": 54,
+      "question_id": 5054,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 54,
+      "question_id": 5176,
+      "answer": "No"
+    },
+    {
+      "user_id": 54,
+      "question_id": 1694,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 54,
+      "question_id": 4010,
+      "answer": "6"
+    },
+    {
+      "user_id": 54,
+      "question_id": 1030,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 54,
+      "question_id": 1349,
+      "answer": "Average"
+    },
+    {
+      "user_id": 54,
+      "question_id": 1387,
+      "answer": "4"
+    },
+    {
+      "user_id": 54,
+      "question_id": 2563,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 54,
+      "question_id": 5376,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 54,
+      "question_id": 2660,
+      "answer": "噱头而已，实质和普通旅游没有差别"
+    },
+    {
+      "user_id": 55,
+      "question_id": 1942,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 55,
+      "question_id": 4037,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 55,
+      "question_id": 64,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 55,
+      "question_id": 3156,
+      "answer": "High cost"
+    },
+    {
+      "user_id": 55,
+      "question_id": 4914,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 55,
+      "question_id": 1750,
+      "answer": "1"
+    },
+    {
+      "user_id": 55,
+      "question_id": 4450,
+      "answer": "2"
+    },
+    {
+      "user_id": 55,
+      "question_id": 4810,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 55,
+      "question_id": 4,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 55,
+      "question_id": 1705,
+      "answer": "No"
+    },
+    {
+      "user_id": 56,
+      "question_id": 1575,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 56,
+      "question_id": 3006,
+      "answer": "Beach"
+    },
+    {
+      "user_id": 56,
+      "question_id": 4728,
+      "answer": "No"
+    },
+    {
+      "user_id": 56,
+      "question_id": 3327,
+      "answer": "Eating local cuisine"
+    },
+    {
+      "user_id": 56,
+      "question_id": 4179,
+      "answer": "2"
+    },
+    {
+      "user_id": 56,
+      "question_id": 3166,
+      "answer": "Good"
+    },
+    {
+      "user_id": 56,
+      "question_id": 2963,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 56,
+      "question_id": 2787,
+      "answer": "How satisfied were you with the quality of the hotel's spa or other wellness facilities?"
+    },
+    {
+      "user_id": 56,
+      "question_id": 3690,
+      "answer": "Shopping"
+    },
+    {
+      "user_id": 56,
+      "question_id": 4863,
+      "answer": "Online booking platforms"
+    },
+    {
+      "user_id": 57,
+      "question_id": 4705,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 57,
+      "question_id": 2620,
+      "answer": "8"
+    },
+    {
+      "user_id": 57,
+      "question_id": 2279,
+      "answer": "Leisure"
+    },
+    {
+      "user_id": 57,
+      "question_id": 4179,
+      "answer": "0"
+    },
+    {
+      "user_id": 57,
+      "question_id": 5479,
+      "answer": "4"
+    },
+    {
+      "user_id": 57,
+      "question_id": 2775,
+      "answer": "6"
+    },
+    {
+      "user_id": 57,
+      "question_id": 779,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 57,
+      "question_id": 3870,
+      "answer": "Other"
+    },
+    {
+      "user_id": 57,
+      "question_id": 4408,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 57,
+      "question_id": 3991,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 57,
+      "question_id": 3867,
+      "answer": "$0.5"
+    },
+    {
+      "user_id": 57,
+      "question_id": 2222,
+      "answer": "What was the main reason you chose this destination?"
+    },
+    {
+      "user_id": 57,
+      "question_id": 5255,
+      "answer": "Speed"
+    },
+    {
+      "user_id": 57,
+      "question_id": 3121,
+      "answer": "4"
+    },
+    {
+      "user_id": 58,
+      "question_id": 4333,
+      "answer": "Hotel"
+    },
+    {
+      "user_id": 58,
+      "question_id": 84,
+      "answer": "Security checkpoint"
+    },
+    {
+      "user_id": 58,
+      "question_id": 5491,
+      "answer": "5"
+    },
+    {
+      "user_id": 58,
+      "question_id": 5282,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 58,
+      "question_id": 541,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 58,
+      "question_id": 4706,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 58,
+      "question_id": 5066,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 58,
+      "question_id": 5289,
+      "answer": "2"
+    },
+    {
+      "user_id": 58,
+      "question_id": 4720,
+      "answer": "Non availability of service"
+    },
+    {
+      "user_id": 58,
+      "question_id": 1442,
+      "answer": "有所了解"
+    },
+    {
+      "user_id": 58,
+      "question_id": 1100,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 58,
+      "question_id": 513,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 59,
+      "question_id": 4196,
+      "answer": "1"
+    },
+    {
+      "user_id": 59,
+      "question_id": 4850,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 59,
+      "question_id": 1680,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 59,
+      "question_id": 3880,
+      "answer": "5"
+    },
+    {
+      "user_id": 59,
+      "question_id": 5678,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 59,
+      "question_id": 3182,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 59,
+      "question_id": 4765,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 59,
+      "question_id": 4328,
+      "answer": "Hotel"
+    },
+    {
+      "user_id": 59,
+      "question_id": 4926,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 59,
+      "question_id": 5822,
+      "answer": "6"
+    },
+    {
+      "user_id": 59,
+      "question_id": 1875,
+      "answer": "9"
+    },
+    {
+      "user_id": 60,
+      "question_id": 1405,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 60,
+      "question_id": 2239,
+      "answer": "No"
+    },
+    {
+      "user_id": 60,
+      "question_id": 1965,
+      "answer": "10"
+    },
+    {
+      "user_id": 60,
+      "question_id": 86,
+      "answer": "Express baggage agent"
+    },
+    {
+      "user_id": 60,
+      "question_id": 1886,
+      "answer": "No"
+    },
+    {
+      "user_id": 60,
+      "question_id": 3752,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 60,
+      "question_id": 5455,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 60,
+      "question_id": 737,
+      "answer": "非常满意"
+    },
+    {
+      "user_id": 60,
+      "question_id": 289,
+      "answer": "No"
+    },
+    {
+      "user_id": 60,
+      "question_id": 657,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 60,
+      "question_id": 4120,
+      "answer": "自行购买"
+    },
+    {
+      "user_id": 60,
+      "question_id": 2787,
+      "answer": "How satisfied are you with the pool facility at the hotel?"
+    },
+    {
+      "user_id": 60,
+      "question_id": 1633,
+      "answer": "Both"
+    },
+    {
+      "user_id": 61,
+      "question_id": 62,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 61,
+      "question_id": 1829,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 61,
+      "question_id": 5926,
+      "answer": "No"
+    },
+    {
+      "user_id": 61,
+      "question_id": 2858,
+      "answer": "Non availability of service"
+    },
+    {
+      "user_id": 61,
+      "question_id": 3235,
+      "answer": "2"
+    },
+    {
+      "user_id": 61,
+      "question_id": 958,
+      "answer": "9"
+    },
+    {
+      "user_id": 61,
+      "question_id": 4364,
+      "answer": "0"
+    },
+    {
+      "user_id": 61,
+      "question_id": 484,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 61,
+      "question_id": 5254,
+      "answer": "3"
+    },
+    {
+      "user_id": 61,
+      "question_id": 3085,
+      "answer": "No"
+    },
+    {
+      "user_id": 61,
+      "question_id": 4805,
+      "answer": "6"
+    },
+    {
+      "user_id": 61,
+      "question_id": 5197,
+      "answer": "Eating local cuisine"
+    },
+    {
+      "user_id": 61,
+      "question_id": 1776,
+      "answer": "Through travel agency"
+    },
+    {
+      "user_id": 61,
+      "question_id": 3810,
+      "answer": "0"
+    },
+    {
+      "user_id": 61,
+      "question_id": 2019,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 62,
+      "question_id": 1018,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 62,
+      "question_id": 2683,
+      "answer": "6"
+    },
+    {
+      "user_id": 62,
+      "question_id": 743,
+      "answer": "非常满意"
+    },
+    {
+      "user_id": 62,
+      "question_id": 5655,
+      "answer": "Hotel"
+    },
+    {
+      "user_id": 62,
+      "question_id": 2969,
+      "answer": "满意"
+    },
+    {
+      "user_id": 62,
+      "question_id": 1121,
+      "answer": "No"
+    },
+    {
+      "user_id": 62,
+      "question_id": 3898,
+      "answer": "Business"
+    },
+    {
+      "user_id": 62,
+      "question_id": 961,
+      "answer": "No"
+    },
+    {
+      "user_id": 62,
+      "question_id": 161,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 62,
+      "question_id": 3001,
+      "answer": "4"
+    },
+    {
+      "user_id": 62,
+      "question_id": 1137,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 62,
+      "question_id": 1525,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 63,
+      "question_id": 5959,
+      "answer": "10"
+    },
+    {
+      "user_id": 63,
+      "question_id": 278,
+      "answer": "0"
+    },
+    {
+      "user_id": 63,
+      "question_id": 5236,
+      "answer": "食"
+    },
+    {
+      "user_id": 63,
+      "question_id": 3130,
+      "answer": "1-2 times a year"
+    },
+    {
+      "user_id": 63,
+      "question_id": 3633,
+      "answer": "非常满意"
+    },
+    {
+      "user_id": 63,
+      "question_id": 5004,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 63,
+      "question_id": 3448,
+      "answer": "No"
+    },
+    {
+      "user_id": 63,
+      "question_id": 3774,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 63,
+      "question_id": 1017,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 63,
+      "question_id": 1106,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 63,
+      "question_id": 2060,
+      "answer": "1"
+    },
+    {
+      "user_id": 63,
+      "question_id": 1653,
+      "answer": "8"
+    },
+    {
+      "user_id": 63,
+      "question_id": 4518,
+      "answer": "No"
+    },
+    {
+      "user_id": 63,
+      "question_id": 1137,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 64,
+      "question_id": 920,
+      "answer": "与我无关"
+    },
+    {
+      "user_id": 64,
+      "question_id": 4560,
+      "answer": "7"
+    },
+    {
+      "user_id": 64,
+      "question_id": 3371,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 64,
+      "question_id": 3315,
+      "answer": "9"
+    },
+    {
+      "user_id": 64,
+      "question_id": 2810,
+      "answer": "Measure the impact of changes over time"
+    },
+    {
+      "user_id": 64,
+      "question_id": 1384,
+      "answer": "Poor"
+    },
+    {
+      "user_id": 64,
+      "question_id": 250,
+      "answer": "Eating local cuisine"
+    },
+    {
+      "user_id": 64,
+      "question_id": 4677,
+      "answer": "3"
+    },
+    {
+      "user_id": 64,
+      "question_id": 5965,
+      "answer": "Business"
+    },
+    {
+      "user_id": 64,
+      "question_id": 2291,
+      "answer": "No"
+    },
+    {
+      "user_id": 64,
+      "question_id": 360,
+      "answer": "4"
+    },
+    {
+      "user_id": 64,
+      "question_id": 1259,
+      "answer": "8"
+    },
+    {
+      "user_id": 64,
+      "question_id": 146,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 64,
+      "question_id": 3345,
+      "answer": "5"
+    },
+    {
+      "user_id": 65,
+      "question_id": 5845,
+      "answer": "8"
+    },
+    {
+      "user_id": 65,
+      "question_id": 2840,
+      "answer": "Airbnb"
+    },
+    {
+      "user_id": 65,
+      "question_id": 1179,
+      "answer": "Countryside"
+    },
+    {
+      "user_id": 65,
+      "question_id": 2553,
+      "answer": "Online booking platforms"
+    },
+    {
+      "user_id": 65,
+      "question_id": 731,
+      "answer": "比较满意"
+    },
+    {
+      "user_id": 65,
+      "question_id": 3418,
+      "answer": "7"
+    },
+    {
+      "user_id": 65,
+      "question_id": 2484,
+      "answer": "0"
+    },
+    {
+      "user_id": 65,
+      "question_id": 3159,
+      "answer": "4"
+    },
+    {
+      "user_id": 65,
+      "question_id": 658,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 65,
+      "question_id": 5226,
+      "answer": "2"
+    },
+    {
+      "user_id": 65,
+      "question_id": 3691,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 65,
+      "question_id": 378,
+      "answer": "5"
+    },
+    {
+      "user_id": 65,
+      "question_id": 1324,
+      "answer": "非常不满意"
+    },
+    {
+      "user_id": 65,
+      "question_id": 1904,
+      "answer": "一般"
+    },
+    {
+      "user_id": 65,
+      "question_id": 131,
+      "answer": "9"
+    },
+    {
+      "user_id": 66,
+      "question_id": 3502,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 66,
+      "question_id": 2146,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 66,
+      "question_id": 5803,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 66,
+      "question_id": 5255,
+      "answer": "Reliability"
+    },
+    {
+      "user_id": 66,
+      "question_id": 5226,
+      "answer": "7"
+    },
+    {
+      "user_id": 66,
+      "question_id": 1785,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 66,
+      "question_id": 860,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 66,
+      "question_id": 5063,
+      "answer": "7"
+    },
+    {
+      "user_id": 66,
+      "question_id": 325,
+      "answer": "9"
+    },
+    {
+      "user_id": 66,
+      "question_id": 4884,
+      "answer": "6"
+    },
+    {
+      "user_id": 66,
+      "question_id": 614,
+      "answer": "No"
+    },
+    {
+      "user_id": 67,
+      "question_id": 4505,
+      "answer": "First Class"
+    },
+    {
+      "user_id": 67,
+      "question_id": 4654,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 67,
+      "question_id": 618,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 67,
+      "question_id": 3407,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 67,
+      "question_id": 5637,
+      "answer": "6"
+    },
+    {
+      "user_id": 67,
+      "question_id": 2712,
+      "answer": "6"
+    },
+    {
+      "user_id": 67,
+      "question_id": 5143,
+      "answer": "行程节奏可自行掌握 / 高端化 / 一对一贴心管家服务 / 自由度高 / 私人导游服务更加全面 / 旅行体验更加丰富 / 自己无需花太多时间做攻略 / 全程量身打造，符合自己口味 / 拥有旅行私密空间 / 旅行设计更加个性化"
+    },
+    {
+      "user_id": 67,
+      "question_id": 582,
+      "answer": "No"
+    },
+    {
+      "user_id": 67,
+      "question_id": 695,
+      "answer": "Get to Know Clients:Understand the travel preferences of repeat clients"
+    },
+    {
+      "user_id": 67,
+      "question_id": 2353,
+      "answer": "9"
+    },
+    {
+      "user_id": 67,
+      "question_id": 4205,
+      "answer": "满意"
+    },
+    {
+      "user_id": 67,
+      "question_id": 4818,
+      "answer": "No"
+    },
+    {
+      "user_id": 67,
+      "question_id": 3206,
+      "answer": "Excellent"
+    },
+    {
+      "user_id": 67,
+      "question_id": 4701,
+      "answer": "10"
+    },
+    {
+      "user_id": 67,
+      "question_id": 2263,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 68,
+      "question_id": 5739,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 68,
+      "question_id": 1029,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 68,
+      "question_id": 2432,
+      "answer": "6"
+    },
+    {
+      "user_id": 68,
+      "question_id": 2996,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 68,
+      "question_id": 2261,
+      "answer": "9"
+    },
+    {
+      "user_id": 68,
+      "question_id": 2480,
+      "answer": "4"
+    },
+    {
+      "user_id": 68,
+      "question_id": 430,
+      "answer": "Good"
+    },
+    {
+      "user_id": 68,
+      "question_id": 4615,
+      "answer": "Average"
+    },
+    {
+      "user_id": 68,
+      "question_id": 2394,
+      "answer": "2"
+    },
+    {
+      "user_id": 68,
+      "question_id": 3690,
+      "answer": "Eating local cuisine"
+    },
+    {
+      "user_id": 68,
+      "question_id": 4932,
+      "answer": "Shopping"
+    },
+    {
+      "user_id": 68,
+      "question_id": 4379,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 68,
+      "question_id": 931,
+      "answer": "Business"
+    },
+    {
+      "user_id": 69,
+      "question_id": 1044,
+      "answer": "No"
+    },
+    {
+      "user_id": 69,
+      "question_id": 4999,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 69,
+      "question_id": 3586,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 69,
+      "question_id": 1929,
+      "answer": "9"
+    },
+    {
+      "user_id": 69,
+      "question_id": 4828,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 69,
+      "question_id": 4194,
+      "answer": "No"
+    },
+    {
+      "user_id": 69,
+      "question_id": 393,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 69,
+      "question_id": 447,
+      "answer": "8"
+    },
+    {
+      "user_id": 69,
+      "question_id": 2986,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 69,
+      "question_id": 4050,
+      "answer": "No"
+    },
+    {
+      "user_id": 69,
+      "question_id": 5965,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 70,
+      "question_id": 4707,
+      "answer": "0"
+    },
+    {
+      "user_id": 70,
+      "question_id": 2261,
+      "answer": "7"
+    },
+    {
+      "user_id": 70,
+      "question_id": 1000,
+      "answer": "7"
+    },
+    {
+      "user_id": 70,
+      "question_id": 3803,
+      "answer": "一般"
+    },
+    {
+      "user_id": 70,
+      "question_id": 1789,
+      "answer": "Good"
+    },
+    {
+      "user_id": 70,
+      "question_id": 5927,
+      "answer": "Average"
+    },
+    {
+      "user_id": 70,
+      "question_id": 2915,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 70,
+      "question_id": 2818,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 70,
+      "question_id": 4317,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 70,
+      "question_id": 4711,
+      "answer": "7"
+    },
+    {
+      "user_id": 70,
+      "question_id": 1910,
+      "answer": "Through travel agency"
+    },
+    {
+      "user_id": 70,
+      "question_id": 437,
+      "answer": "5"
+    },
+    {
+      "user_id": 71,
+      "question_id": 4073,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 71,
+      "question_id": 617,
+      "answer": "No"
+    },
+    {
+      "user_id": 71,
+      "question_id": 5568,
+      "answer": "10"
+    },
+    {
+      "user_id": 71,
+      "question_id": 184,
+      "answer": "No"
+    },
+    {
+      "user_id": 71,
+      "question_id": 3171,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 71,
+      "question_id": 3277,
+      "answer": "4"
+    },
+    {
+      "user_id": 71,
+      "question_id": 5018,
+      "answer": "1"
+    },
+    {
+      "user_id": 71,
+      "question_id": 191,
+      "answer": "No"
+    },
+    {
+      "user_id": 71,
+      "question_id": 2481,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 71,
+      "question_id": 4540,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 71,
+      "question_id": 1977,
+      "answer": "3"
+    },
+    {
+      "user_id": 71,
+      "question_id": 5571,
+      "answer": "9"
+    },
+    {
+      "user_id": 72,
+      "question_id": 3314,
+      "answer": "8"
+    },
+    {
+      "user_id": 72,
+      "question_id": 2104,
+      "answer": "9"
+    },
+    {
+      "user_id": 72,
+      "question_id": 632,
+      "answer": "No"
+    },
+    {
+      "user_id": 72,
+      "question_id": 4615,
+      "answer": "Excellent"
+    },
+    {
+      "user_id": 72,
+      "question_id": 4231,
+      "answer": "No"
+    },
+    {
+      "user_id": 72,
+      "question_id": 119,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 72,
+      "question_id": 5935,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 72,
+      "question_id": 835,
+      "answer": "1"
+    },
+    {
+      "user_id": 72,
+      "question_id": 5407,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 72,
+      "question_id": 1445,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 72,
+      "question_id": 1665,
+      "answer": "6"
+    },
+    {
+      "user_id": 72,
+      "question_id": 2579,
+      "answer": "2"
+    },
+    {
+      "user_id": 72,
+      "question_id": 963,
+      "answer": "6"
+    },
+    {
+      "user_id": 72,
+      "question_id": 370,
+      "answer": "Excellent"
+    },
+    {
+      "user_id": 72,
+      "question_id": 5185,
+      "answer": "No"
+    },
+    {
+      "user_id": 73,
+      "question_id": 992,
+      "answer": "Poor"
+    },
+    {
+      "user_id": 73,
+      "question_id": 3413,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 73,
+      "question_id": 5151,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 73,
+      "question_id": 1902,
+      "answer": "Did you consider the cultural or historical significance of the destination?"
+    },
+    {
+      "user_id": 73,
+      "question_id": 4637,
+      "answer": "0"
+    },
+    {
+      "user_id": 73,
+      "question_id": 1251,
+      "answer": "7"
+    },
+    {
+      "user_id": 73,
+      "question_id": 2304,
+      "answer": "10"
+    },
+    {
+      "user_id": 73,
+      "question_id": 1854,
+      "answer": "旅行社等宣传"
+    },
+    {
+      "user_id": 73,
+      "question_id": 5983,
+      "answer": "不满意"
+    },
+    {
+      "user_id": 73,
+      "question_id": 3316,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 73,
+      "question_id": 3545,
+      "answer": "直接选择定制师所提供产品"
+    },
+    {
+      "user_id": 74,
+      "question_id": 3029,
+      "answer": "4"
+    },
+    {
+      "user_id": 74,
+      "question_id": 1837,
+      "answer": "10"
+    },
+    {
+      "user_id": 74,
+      "question_id": 2900,
+      "answer": "1"
+    },
+    {
+      "user_id": 74,
+      "question_id": 5713,
+      "answer": "Vacation rental"
+    },
+    {
+      "user_id": 74,
+      "question_id": 1655,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 74,
+      "question_id": 5107,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 74,
+      "question_id": 5161,
+      "answer": "0"
+    },
+    {
+      "user_id": 74,
+      "question_id": 5095,
+      "answer": "No"
+    },
+    {
+      "user_id": 74,
+      "question_id": 1397,
+      "answer": "Average"
+    },
+    {
+      "user_id": 74,
+      "question_id": 5677,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 74,
+      "question_id": 1469,
+      "answer": "No"
+    },
+    {
+      "user_id": 74,
+      "question_id": 3130,
+      "answer": "1-2 times a year"
+    },
+    {
+      "user_id": 74,
+      "question_id": 2880,
+      "answer": "Camping"
+    },
+    {
+      "user_id": 74,
+      "question_id": 1904,
+      "answer": "一般"
+    },
+    {
+      "user_id": 75,
+      "question_id": 1788,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 75,
+      "question_id": 3220,
+      "answer": "Red Carpet Room receptionist"
+    },
+    {
+      "user_id": 75,
+      "question_id": 4530,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 75,
+      "question_id": 90,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 75,
+      "question_id": 4710,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 75,
+      "question_id": 3048,
+      "answer": "Average"
+    },
+    {
+      "user_id": 75,
+      "question_id": 5523,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 75,
+      "question_id": 5940,
+      "answer": "一般"
+    },
+    {
+      "user_id": 75,
+      "question_id": 3978,
+      "answer": "3"
+    },
+    {
+      "user_id": 75,
+      "question_id": 430,
+      "answer": "Poor"
+    },
+    {
+      "user_id": 75,
+      "question_id": 4612,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 75,
+      "question_id": 1746,
+      "answer": "餐饮和住宿是否满意 / 服务机构无保障 / 设计线路是否可行 / 体验感不足，主题感不强 / 不安全 / 和定制师交流麻烦"
+    },
+    {
+      "user_id": 75,
+      "question_id": 5749,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 75,
+      "question_id": 2838,
+      "answer": "8"
+    },
+    {
+      "user_id": 75,
+      "question_id": 1324,
+      "answer": "非常不满意"
+    },
+    {
+      "user_id": 76,
+      "question_id": 1287,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 76,
+      "question_id": 4303,
+      "answer": "Hotel"
+    },
+    {
+      "user_id": 76,
+      "question_id": 4423,
+      "answer": "No"
+    },
+    {
+      "user_id": 76,
+      "question_id": 649,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 76,
+      "question_id": 5193,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 76,
+      "question_id": 4831,
+      "answer": "Excellent"
+    },
+    {
+      "user_id": 76,
+      "question_id": 1682,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 76,
+      "question_id": 853,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 76,
+      "question_id": 2309,
+      "answer": "No"
+    },
+    {
+      "user_id": 76,
+      "question_id": 487,
+      "answer": "9"
+    },
+    {
+      "user_id": 77,
+      "question_id": 4901,
+      "answer": "满意"
+    },
+    {
+      "user_id": 77,
+      "question_id": 4482,
+      "answer": "What was the main reason you chose this destination?"
+    },
+    {
+      "user_id": 77,
+      "question_id": 1420,
+      "answer": "External company business (sales call"
+    },
+    {
+      "user_id": 77,
+      "question_id": 408,
+      "answer": "4"
+    },
+    {
+      "user_id": 77,
+      "question_id": 1385,
+      "answer": "6"
+    },
+    {
+      "user_id": 77,
+      "question_id": 5731,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 77,
+      "question_id": 3342,
+      "answer": "Direct Mail"
+    },
+    {
+      "user_id": 77,
+      "question_id": 750,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 77,
+      "question_id": 1989,
+      "answer": "Business"
+    },
+    {
+      "user_id": 77,
+      "question_id": 2810,
+      "answer": "Make data-driven decisions about upgrades and training"
+    },
+    {
+      "user_id": 77,
+      "question_id": 3420,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 77,
+      "question_id": 2608,
+      "answer": "Good"
+    },
+    {
+      "user_id": 77,
+      "question_id": 1410,
+      "answer": "9"
+    },
+    {
+      "user_id": 77,
+      "question_id": 3572,
+      "answer": "No"
+    },
+    {
+      "user_id": 78,
+      "question_id": 2263,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 78,
+      "question_id": 2165,
+      "answer": "1"
+    },
+    {
+      "user_id": 78,
+      "question_id": 2735,
+      "answer": "By plane"
+    },
+    {
+      "user_id": 78,
+      "question_id": 4847,
+      "answer": "4"
+    },
+    {
+      "user_id": 78,
+      "question_id": 5726,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 78,
+      "question_id": 249,
+      "answer": "Hotel"
+    },
+    {
+      "user_id": 78,
+      "question_id": 5518,
+      "answer": "Average"
+    },
+    {
+      "user_id": 78,
+      "question_id": 4405,
+      "answer": "4-6次"
+    },
+    {
+      "user_id": 78,
+      "question_id": 2965,
+      "answer": "体验过定制旅游产品"
+    },
+    {
+      "user_id": 78,
+      "question_id": 3536,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 78,
+      "question_id": 3038,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 79,
+      "question_id": 1318,
+      "answer": "No"
+    },
+    {
+      "user_id": 79,
+      "question_id": 57,
+      "answer": "7"
+    },
+    {
+      "user_id": 79,
+      "question_id": 819,
+      "answer": "trade show"
+    },
+    {
+      "user_id": 79,
+      "question_id": 278,
+      "answer": "6"
+    },
+    {
+      "user_id": 79,
+      "question_id": 1756,
+      "answer": "一般"
+    },
+    {
+      "user_id": 79,
+      "question_id": 5945,
+      "answer": "Good"
+    },
+    {
+      "user_id": 79,
+      "question_id": 3077,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 79,
+      "question_id": 78,
+      "answer": "Attend a convention"
+    },
+    {
+      "user_id": 79,
+      "question_id": 2810,
+      "answer": "Track performance by department"
+    },
+    {
+      "user_id": 79,
+      "question_id": 2451,
+      "answer": "有所了解"
+    },
+    {
+      "user_id": 79,
+      "question_id": 4610,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 80,
+      "question_id": 3756,
+      "answer": "Countryside"
+    },
+    {
+      "user_id": 80,
+      "question_id": 1607,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 80,
+      "question_id": 2862,
+      "answer": "5"
+    },
+    {
+      "user_id": 80,
+      "question_id": 5144,
+      "answer": "Non availability of service"
+    },
+    {
+      "user_id": 80,
+      "question_id": 4577,
+      "answer": "No"
+    },
+    {
+      "user_id": 80,
+      "question_id": 1547,
+      "answer": "比较满意"
+    },
+    {
+      "user_id": 80,
+      "question_id": 3589,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 80,
+      "question_id": 752,
+      "answer": "4"
+    },
+    {
+      "user_id": 80,
+      "question_id": 1086,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 80,
+      "question_id": 2459,
+      "answer": "No"
+    },
+    {
+      "user_id": 80,
+      "question_id": 3077,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 81,
+      "question_id": 4804,
+      "answer": "普通路边餐馆"
+    },
+    {
+      "user_id": 81,
+      "question_id": 5141,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 81,
+      "question_id": 1109,
+      "answer": "No"
+    },
+    {
+      "user_id": 81,
+      "question_id": 2358,
+      "answer": "购"
+    },
+    {
+      "user_id": 81,
+      "question_id": 1924,
+      "answer": "1"
+    },
+    {
+      "user_id": 81,
+      "question_id": 25,
+      "answer": "10"
+    },
+    {
+      "user_id": 81,
+      "question_id": 550,
+      "answer": "1"
+    },
+    {
+      "user_id": 81,
+      "question_id": 3166,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 81,
+      "question_id": 4054,
+      "answer": "10"
+    },
+    {
+      "user_id": 81,
+      "question_id": 794,
+      "answer": "出售旅游商品"
+    },
+    {
+      "user_id": 81,
+      "question_id": 641,
+      "answer": "0"
+    },
+    {
+      "user_id": 81,
+      "question_id": 2262,
+      "answer": "非常不满意"
+    },
+    {
+      "user_id": 81,
+      "question_id": 2221,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 81,
+      "question_id": 3855,
+      "answer": "More than 5 times a year"
+    },
+    {
+      "user_id": 81,
+      "question_id": 725,
+      "answer": "无所谓"
+    },
+    {
+      "user_id": 82,
+      "question_id": 230,
+      "answer": "1-2 times a year"
+    },
+    {
+      "user_id": 82,
+      "question_id": 3171,
+      "answer": "3"
+    },
+    {
+      "user_id": 82,
+      "question_id": 4582,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 82,
+      "question_id": 1522,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 82,
+      "question_id": 4654,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 82,
+      "question_id": 5677,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 82,
+      "question_id": 5337,
+      "answer": "Shopping"
+    },
+    {
+      "user_id": 82,
+      "question_id": 1865,
+      "answer": "Vacation rental"
+    },
+    {
+      "user_id": 82,
+      "question_id": 2770,
+      "answer": "By plane"
+    },
+    {
+      "user_id": 82,
+      "question_id": 773,
+      "answer": "No"
+    },
+    {
+      "user_id": 82,
+      "question_id": 3373,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 82,
+      "question_id": 2988,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 82,
+      "question_id": 2235,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 82,
+      "question_id": 1400,
+      "answer": "5"
+    },
+    {
+      "user_id": 82,
+      "question_id": 2122,
+      "answer": "Excellent"
+    },
+    {
+      "user_id": 83,
+      "question_id": 2226,
+      "answer": "7"
+    },
+    {
+      "user_id": 83,
+      "question_id": 984,
+      "answer": "No"
+    },
+    {
+      "user_id": 83,
+      "question_id": 1267,
+      "answer": "3"
+    },
+    {
+      "user_id": 83,
+      "question_id": 1613,
+      "answer": "10"
+    },
+    {
+      "user_id": 83,
+      "question_id": 3848,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 83,
+      "question_id": 5870,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 83,
+      "question_id": 5365,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 83,
+      "question_id": 417,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 83,
+      "question_id": 2358,
+      "answer": "游（游览景点）"
+    },
+    {
+      "user_id": 83,
+      "question_id": 2138,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 83,
+      "question_id": 1876,
+      "answer": "2"
+    },
+    {
+      "user_id": 83,
+      "question_id": 5864,
+      "answer": "Hostel"
+    },
+    {
+      "user_id": 83,
+      "question_id": 2929,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 83,
+      "question_id": 4585,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 83,
+      "question_id": 84,
+      "answer": "Other"
+    },
+    {
+      "user_id": 84,
+      "question_id": 456,
+      "answer": "4"
+    },
+    {
+      "user_id": 84,
+      "question_id": 2989,
+      "answer": "Excellent"
+    },
+    {
+      "user_id": 84,
+      "question_id": 4065,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 84,
+      "question_id": 2124,
+      "answer": "4"
+    },
+    {
+      "user_id": 84,
+      "question_id": 990,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 84,
+      "question_id": 4413,
+      "answer": "No"
+    },
+    {
+      "user_id": 84,
+      "question_id": 5074,
+      "answer": "9"
+    },
+    {
+      "user_id": 84,
+      "question_id": 3012,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 84,
+      "question_id": 1389,
+      "answer": "6"
+    },
+    {
+      "user_id": 84,
+      "question_id": 2855,
+      "answer": "9"
+    },
+    {
+      "user_id": 85,
+      "question_id": 3735,
+      "answer": "Direct Mail"
+    },
+    {
+      "user_id": 85,
+      "question_id": 4958,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 85,
+      "question_id": 5661,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 85,
+      "question_id": 5771,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 85,
+      "question_id": 2722,
+      "answer": "不满意"
+    },
+    {
+      "user_id": 85,
+      "question_id": 757,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 85,
+      "question_id": 321,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 85,
+      "question_id": 2236,
+      "answer": "Through travel agency"
+    },
+    {
+      "user_id": 85,
+      "question_id": 255,
+      "answer": "Mountains"
+    },
+    {
+      "user_id": 85,
+      "question_id": 5488,
+      "answer": "0"
+    },
+    {
+      "user_id": 86,
+      "question_id": 4452,
+      "answer": "No"
+    },
+    {
+      "user_id": 86,
+      "question_id": 4808,
+      "answer": "机票+酒店半自助游"
+    },
+    {
+      "user_id": 86,
+      "question_id": 5444,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 86,
+      "question_id": 4967,
+      "answer": "8"
+    },
+    {
+      "user_id": 86,
+      "question_id": 4223,
+      "answer": "Did you encounter any issues while using the hotel's amenities during your stay?"
+    },
+    {
+      "user_id": 86,
+      "question_id": 3431,
+      "answer": "7"
+    },
+    {
+      "user_id": 86,
+      "question_id": 3716,
+      "answer": "0"
+    },
+    {
+      "user_id": 86,
+      "question_id": 3245,
+      "answer": "No"
+    },
+    {
+      "user_id": 86,
+      "question_id": 4974,
+      "answer": "Average"
+    },
+    {
+      "user_id": 86,
+      "question_id": 2304,
+      "answer": "3"
+    },
+    {
+      "user_id": 86,
+      "question_id": 4667,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 86,
+      "question_id": 1716,
+      "answer": "10"
+    },
+    {
+      "user_id": 87,
+      "question_id": 947,
+      "answer": "Hostel"
+    },
+    {
+      "user_id": 87,
+      "question_id": 4471,
+      "answer": "No"
+    },
+    {
+      "user_id": 87,
+      "question_id": 3069,
+      "answer": "Attend a convention"
+    },
+    {
+      "user_id": 87,
+      "question_id": 2477,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 87,
+      "question_id": 2054,
+      "answer": "Mountains"
+    },
+    {
+      "user_id": 87,
+      "question_id": 1914,
+      "answer": "4"
+    },
+    {
+      "user_id": 87,
+      "question_id": 1278,
+      "answer": "Camping"
+    },
+    {
+      "user_id": 87,
+      "question_id": 5276,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 87,
+      "question_id": 3320,
+      "answer": "Boarding gate check-in counter"
+    },
+    {
+      "user_id": 87,
+      "question_id": 2006,
+      "answer": "2"
+    },
+    {
+      "user_id": 88,
+      "question_id": 3735,
+      "answer": "Twitter"
+    },
+    {
+      "user_id": 88,
+      "question_id": 3320,
+      "answer": "Red Carpet Room"
+    },
+    {
+      "user_id": 88,
+      "question_id": 1385,
+      "answer": "8"
+    },
+    {
+      "user_id": 88,
+      "question_id": 1392,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 88,
+      "question_id": 2186,
+      "answer": "Airbnb"
+    },
+    {
+      "user_id": 88,
+      "question_id": 1626,
+      "answer": "0"
+    },
+    {
+      "user_id": 88,
+      "question_id": 3432,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 88,
+      "question_id": 5984,
+      "answer": "住"
+    },
+    {
+      "user_id": 88,
+      "question_id": 5704,
+      "answer": "Economy Class"
+    },
+    {
+      "user_id": 88,
+      "question_id": 3842,
+      "answer": "9"
+    },
+    {
+      "user_id": 88,
+      "question_id": 355,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 88,
+      "question_id": 5648,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 88,
+      "question_id": 739,
+      "answer": "不满意"
+    },
+    {
+      "user_id": 88,
+      "question_id": 2630,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 89,
+      "question_id": 5740,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 89,
+      "question_id": 5648,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 89,
+      "question_id": 2987,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 89,
+      "question_id": 57,
+      "answer": "10"
+    },
+    {
+      "user_id": 89,
+      "question_id": 2742,
+      "answer": "Shopping"
+    },
+    {
+      "user_id": 89,
+      "question_id": 5243,
+      "answer": "8"
+    },
+    {
+      "user_id": 89,
+      "question_id": 2400,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 89,
+      "question_id": 4749,
+      "answer": "7"
+    },
+    {
+      "user_id": 89,
+      "question_id": 4626,
+      "answer": "Curbside baggage check-in"
+    },
+    {
+      "user_id": 89,
+      "question_id": 5707,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 89,
+      "question_id": 2777,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 89,
+      "question_id": 2419,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 89,
+      "question_id": 2409,
+      "answer": "Through travel agency"
+    },
+    {
+      "user_id": 89,
+      "question_id": 2764,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 90,
+      "question_id": 3011,
+      "answer": "1"
+    },
+    {
+      "user_id": 90,
+      "question_id": 4576,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 90,
+      "question_id": 4467,
+      "answer": "8"
+    },
+    {
+      "user_id": 90,
+      "question_id": 568,
+      "answer": "4"
+    },
+    {
+      "user_id": 90,
+      "question_id": 535,
+      "answer": "10"
+    },
+    {
+      "user_id": 90,
+      "question_id": 5350,
+      "answer": "Referred by someone"
+    },
+    {
+      "user_id": 90,
+      "question_id": 5070,
+      "answer": "6"
+    },
+    {
+      "user_id": 90,
+      "question_id": 3660,
+      "answer": "9"
+    },
+    {
+      "user_id": 90,
+      "question_id": 5209,
+      "answer": "5"
+    },
+    {
+      "user_id": 90,
+      "question_id": 4557,
+      "answer": "9"
+    },
+    {
+      "user_id": 90,
+      "question_id": 796,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 90,
+      "question_id": 2834,
+      "answer": "Good"
+    },
+    {
+      "user_id": 90,
+      "question_id": 2795,
+      "answer": "Average"
+    },
+    {
+      "user_id": 90,
+      "question_id": 5955,
+      "answer": "0"
+    },
+    {
+      "user_id": 90,
+      "question_id": 2619,
+      "answer": "8"
+    },
+    {
+      "user_id": 91,
+      "question_id": 3013,
+      "answer": "10"
+    },
+    {
+      "user_id": 91,
+      "question_id": 180,
+      "answer": "No"
+    },
+    {
+      "user_id": 91,
+      "question_id": 1688,
+      "answer": "Through travel agency"
+    },
+    {
+      "user_id": 91,
+      "question_id": 2649,
+      "answer": "Through travel agency"
+    },
+    {
+      "user_id": 91,
+      "question_id": 1278,
+      "answer": "Less than once a year"
+    },
+    {
+      "user_id": 91,
+      "question_id": 3806,
+      "answer": "9"
+    },
+    {
+      "user_id": 91,
+      "question_id": 2974,
+      "answer": "$1.0"
+    },
+    {
+      "user_id": 91,
+      "question_id": 338,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 91,
+      "question_id": 2506,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 91,
+      "question_id": 5774,
+      "answer": "3-5 times a year"
+    },
+    {
+      "user_id": 91,
+      "question_id": 3631,
+      "answer": "Excellent"
+    },
+    {
+      "user_id": 91,
+      "question_id": 2757,
+      "answer": "trade show"
+    },
+    {
+      "user_id": 91,
+      "question_id": 2838,
+      "answer": "1"
+    },
+    {
+      "user_id": 91,
+      "question_id": 2617,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 92,
+      "question_id": 3074,
+      "answer": "Facebook"
+    },
+    {
+      "user_id": 92,
+      "question_id": 897,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 92,
+      "question_id": 895,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 92,
+      "question_id": 5046,
+      "answer": "3"
+    },
+    {
+      "user_id": 92,
+      "question_id": 4319,
+      "answer": "More than 5 times a year"
+    },
+    {
+      "user_id": 92,
+      "question_id": 3709,
+      "answer": "3"
+    },
+    {
+      "user_id": 92,
+      "question_id": 236,
+      "answer": "Hostel"
+    },
+    {
+      "user_id": 92,
+      "question_id": 5878,
+      "answer": "Sightseeing"
+    },
+    {
+      "user_id": 92,
+      "question_id": 2779,
+      "answer": "10"
+    },
+    {
+      "user_id": 92,
+      "question_id": 551,
+      "answer": "9"
+    },
+    {
+      "user_id": 92,
+      "question_id": 2077,
+      "answer": "不满意"
+    },
+    {
+      "user_id": 92,
+      "question_id": 3590,
+      "answer": "No"
+    },
+    {
+      "user_id": 93,
+      "question_id": 4884,
+      "answer": "3"
+    },
+    {
+      "user_id": 93,
+      "question_id": 2609,
+      "answer": "5"
+    },
+    {
+      "user_id": 93,
+      "question_id": 1466,
+      "answer": "No"
+    },
+    {
+      "user_id": 93,
+      "question_id": 4500,
+      "answer": "No"
+    },
+    {
+      "user_id": 93,
+      "question_id": 3121,
+      "answer": "2"
+    },
+    {
+      "user_id": 93,
+      "question_id": 282,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 93,
+      "question_id": 4830,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 93,
+      "question_id": 5887,
+      "answer": "Leisure"
+    },
+    {
+      "user_id": 93,
+      "question_id": 3416,
+      "answer": "No"
+    },
+    {
+      "user_id": 93,
+      "question_id": 5870,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 93,
+      "question_id": 3545,
+      "answer": "直接选择定制师所提供产品"
+    },
+    {
+      "user_id": 93,
+      "question_id": 1134,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 93,
+      "question_id": 3708,
+      "answer": "Camping"
+    },
+    {
+      "user_id": 93,
+      "question_id": 5307,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 93,
+      "question_id": 632,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 94,
+      "question_id": 2685,
+      "answer": "8"
+    },
+    {
+      "user_id": 94,
+      "question_id": 4249,
+      "answer": "5"
+    },
+    {
+      "user_id": 94,
+      "question_id": 5463,
+      "answer": "Excellent"
+    },
+    {
+      "user_id": 94,
+      "question_id": 2538,
+      "answer": "Average"
+    },
+    {
+      "user_id": 94,
+      "question_id": 1455,
+      "answer": "7"
+    },
+    {
+      "user_id": 94,
+      "question_id": 3966,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 94,
+      "question_id": 2734,
+      "answer": "Very Satisfied"
+    },
+    {
+      "user_id": 94,
+      "question_id": 4647,
+      "answer": "Sightseeing"
+    },
+    {
+      "user_id": 94,
+      "question_id": 4492,
+      "answer": "Airbnb"
+    },
+    {
+      "user_id": 94,
+      "question_id": 4095,
+      "answer": "Eating local cuisine"
+    },
+    {
+      "user_id": 95,
+      "question_id": 246,
+      "answer": "Vacation rental"
+    },
+    {
+      "user_id": 95,
+      "question_id": 5071,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 95,
+      "question_id": 3986,
+      "answer": "No"
+    },
+    {
+      "user_id": 95,
+      "question_id": 5643,
+      "answer": "Airbnb"
+    },
+    {
+      "user_id": 95,
+      "question_id": 3655,
+      "answer": "适合自己的定制游"
+    },
+    {
+      "user_id": 95,
+      "question_id": 1605,
+      "answer": "满意"
+    },
+    {
+      "user_id": 95,
+      "question_id": 2055,
+      "answer": "Mountains"
+    },
+    {
+      "user_id": 95,
+      "question_id": 5001,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 95,
+      "question_id": 4174,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 95,
+      "question_id": 5940,
+      "answer": "满意"
+    },
+    {
+      "user_id": 95,
+      "question_id": 5678,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 95,
+      "question_id": 4584,
+      "answer": "7"
+    },
+    {
+      "user_id": 95,
+      "question_id": 4072,
+      "answer": "0"
+    },
+    {
+      "user_id": 95,
+      "question_id": 3431,
+      "answer": "9"
+    },
+    {
+      "user_id": 96,
+      "question_id": 1724,
+      "answer": "No"
+    },
+    {
+      "user_id": 96,
+      "question_id": 481,
+      "answer": "No"
+    },
+    {
+      "user_id": 96,
+      "question_id": 5785,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 96,
+      "question_id": 5042,
+      "answer": "Would you recommend this destination to others?"
+    },
+    {
+      "user_id": 96,
+      "question_id": 2826,
+      "answer": "Hostel"
+    },
+    {
+      "user_id": 96,
+      "question_id": 2325,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 96,
+      "question_id": 535,
+      "answer": "4"
+    },
+    {
+      "user_id": 96,
+      "question_id": 5612,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 96,
+      "question_id": 4991,
+      "answer": "No"
+    },
+    {
+      "user_id": 96,
+      "question_id": 4259,
+      "answer": "Other"
+    },
+    {
+      "user_id": 97,
+      "question_id": 1965,
+      "answer": "3"
+    },
+    {
+      "user_id": 97,
+      "question_id": 835,
+      "answer": "0"
+    },
+    {
+      "user_id": 97,
+      "question_id": 5344,
+      "answer": "非常满意"
+    },
+    {
+      "user_id": 97,
+      "question_id": 2417,
+      "answer": "Poor"
+    },
+    {
+      "user_id": 97,
+      "question_id": 391,
+      "answer": "5"
+    },
+    {
+      "user_id": 97,
+      "question_id": 2673,
+      "answer": "8"
+    },
+    {
+      "user_id": 97,
+      "question_id": 952,
+      "answer": "7"
+    },
+    {
+      "user_id": 97,
+      "question_id": 1410,
+      "answer": "6"
+    },
+    {
+      "user_id": 97,
+      "question_id": 3854,
+      "answer": "0"
+    },
+    {
+      "user_id": 97,
+      "question_id": 1452,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 97,
+      "question_id": 3547,
+      "answer": "No"
+    },
+    {
+      "user_id": 98,
+      "question_id": 883,
+      "answer": "5"
+    },
+    {
+      "user_id": 98,
+      "question_id": 2820,
+      "answer": "5"
+    },
+    {
+      "user_id": 98,
+      "question_id": 4075,
+      "answer": "Shopping"
+    },
+    {
+      "user_id": 98,
+      "question_id": 5015,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 98,
+      "question_id": 2848,
+      "answer": "0"
+    },
+    {
+      "user_id": 98,
+      "question_id": 1018,
+      "answer": "Neutral"
+    },
+    {
+      "user_id": 98,
+      "question_id": 4396,
+      "answer": "10"
+    },
+    {
+      "user_id": 98,
+      "question_id": 659,
+      "answer": "Ease of connection"
+    },
+    {
+      "user_id": 98,
+      "question_id": 5215,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 98,
+      "question_id": 2220,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 98,
+      "question_id": 4285,
+      "answer": "3"
+    },
+    {
+      "user_id": 98,
+      "question_id": 2540,
+      "answer": "Good"
+    },
+    {
+      "user_id": 98,
+      "question_id": 408,
+      "answer": "9"
+    },
+    {
+      "user_id": 98,
+      "question_id": 2524,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 99,
+      "question_id": 3871,
+      "answer": "10"
+    },
+    {
+      "user_id": 99,
+      "question_id": 2780,
+      "answer": "10"
+    },
+    {
+      "user_id": 99,
+      "question_id": 938,
+      "answer": "7"
+    },
+    {
+      "user_id": 99,
+      "question_id": 5133,
+      "answer": "Other"
+    },
+    {
+      "user_id": 99,
+      "question_id": 2947,
+      "answer": "Dissatisfied"
+    },
+    {
+      "user_id": 99,
+      "question_id": 1272,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 99,
+      "question_id": 1370,
+      "answer": "1"
+    },
+    {
+      "user_id": 99,
+      "question_id": 741,
+      "answer": "非常满意"
+    },
+    {
+      "user_id": 99,
+      "question_id": 1214,
+      "answer": "Business Class"
+    },
+    {
+      "user_id": 99,
+      "question_id": 4573,
+      "answer": "0"
+    },
+    {
+      "user_id": 99,
+      "question_id": 1374,
+      "answer": "Very Dissatisfied"
+    },
+    {
+      "user_id": 99,
+      "question_id": 743,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 99,
+      "question_id": 2913,
+      "answer": "not_answered"
+    },
+    {
+      "user_id": 99,
+      "question_id": 4773,
+      "answer": "No"
+    },
+    {
+      "user_id": 99,
+      "question_id": 2228,
+      "answer": "No"
+    },
+    {
+      "user_id": 100,
+      "question_id": 1948,
+      "answer": "Satisfied"
+    },
+    {
+      "user_id": 100,
+      "question_id": 5027,
+      "answer": "Yes"
+    },
+    {
+      "user_id": 100,
+      "question_id": 5581,
+      "answer": "4"
+    },
+    {
+      "user_id": 100,
+      "question_id": 5424,
+      "answer": "别人推荐"
+    },
+    {
+      "user_id": 100,
+      "question_id": 477,
+      "answer": "7"
+    },
+    {
+      "user_id": 100,
+      "question_id": 4434,
+      "answer": "No"
+    },
+    {
+      "user_id": 100,
+      "question_id": 1746,
+      "answer": "不安全 / 设计线路是否可行 / 体验感不足，主题感不强 / 价格可能偏高 / 餐饮和住宿是否满意"
+    },
+    {
+      "user_id": 100,
+      "question_id": 4297,
+      "answer": "Very Poor"
+    },
+    {
+      "user_id": 100,
+      "question_id": 165,
+      "answer": "No"
+    },
+    {
+      "user_id": 100,
+      "question_id": 506,
+      "answer": "7"
+    },
+    {
+      "user_id": 100,
+      "question_id": 3882,
+      "answer": "10"
+    },
+    {
+      "user_id": 100,
+      "question_id": 3235,
+      "answer": "3"
+    },
+    {
+      "user_id": 100,
+      "question_id": 769,
+      "answer": "not_answered"
+    }
+  ]
+}
