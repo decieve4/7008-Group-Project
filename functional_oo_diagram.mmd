@@ -1,3 +1,8 @@
+---
+config:
+  layout: dagre
+  theme: mc
+---
 classDiagram
     class QuestionBankSystem {
         +uploadQuestionBank(file)
@@ -21,13 +26,37 @@ classDiagram
         -List~String~ options
         -String category
         -int difficulty
+        -String language
+        -String sourceUrl
+        -String sourceName
     }
     
     class WebCrawler {
-        -String baseURL
-        +crawlQuestions(url)
-        +parseHTML(html)
-        +saveToQuestionBank()
+        -Session session
+        -List~Question~ allQuestions
+        -Set seenQuestions
+        -Set seenUrls
+        -Dict stats
+        -String dataDir
+        +init_database()
+        +safe_get(url, timeout)
+        +is_travel_question(text)
+        +extract_options(options_list)
+        +determine_question_type(options_text, question_text)
+        +categorize_question(text)
+        +parse_wjx(html, url)
+        +parse_wenjuan(html, url)
+        +parse_jotform(html, url)
+        +parse_generic(html, url, source_name)
+        +parse_survey_page(html, url, source_name)
+        +extract_sublinks(html, base_url)
+        +crawl_with_fallback(url, source_name)
+        +get_all_urls()
+        +crawl_all()
+        +enhance_options()
+        +expand_to_6000()
+        +save_all()
+        +show_stats()
     }
     
     class TextMiningModel {
@@ -51,9 +80,16 @@ classDiagram
     }
     
     class DataVisualizer {
-        +visualizeSurvey(survey)
-        +showResultsAnalysis(results)
-        +generateCharts(data)
+        -Dict chartTemplates
+        +createClusterVisualization(clusterData)
+        +createCategoryDistributionChart(categoryData)
+        +createComplexityAnalysisChart(complexityData)
+        +createPlatformComparisonChart(platformData)
+        +createSurveyProgressDashboard(surveyData)
+        +createQuestionRelationshipGraph(relationshipData)
+        +createUserAnalysisReport(userData)
+        +createAllUsersAnalysisReport(systemData)
+        +exportAllVisualizations(systemData)
     }
     
     QuestionBankSystem --> QuestionBank : manages
@@ -68,3 +104,4 @@ classDiagram
     SurveyGenerator --> QuestionBank : selects from
     SurveyGenerator --> SurveyRequirement : follows
     DataVisualizer --> SurveyGenerator : visualizes output
+    DataVisualizer --> Question : analyzes patterns
