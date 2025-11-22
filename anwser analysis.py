@@ -2,6 +2,7 @@ import json
 from collections import defaultdict, Counter
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 
 sns.set(style="whitegrid")
 
@@ -103,3 +104,82 @@ plt.tight_layout()
 plt.savefig("effectless_probability_by_category.png", dpi=150)
 plt.close()
 print("save as effectless_probability_by_category.png")
+
+
+
+all_categories = sorted({q["category"] for q in questions})
+
+
+user_cat_stats = defaultdict(lambda: defaultdict(lambda: {"answered": 0, "total": 0}))
+
+for resp in responses:
+    if not resp.get("effective", True):
+        continue
+
+    uid = resp["user_id"]
+    qid = resp["question_id"]
+    ans = resp["answer"]
+
+    cat = qid_to_cat.get(qid)
+    if cat is None:
+        continue
+
+    user_cat_stats[uid][cat]["total"] += 1
+    if ans != "not_answered":
+        user_cat_stats[uid][cat]["answered"] += 1
+
+
+users = sorted(user_cat_stats.keys())
+num_users = len(users)
+num_cats = len(all_categories)
+
+data_matrix = np.full((num_users, num_cats), np.nan)
+
+for i, uid in enumerate(users):
+    for j, cat in enumerate(all_categories):
+        st = user_cat_stats[uid].get(cat)
+        if st is None or st["total"] == 0:
+            continue
+        rate = st["answered"] / st["total"]
+        data_matrix[i, j] = rate
+valid_cols = ~np.all(np.isnan(data_matrix), axis=0)
+data_matrix = data_matrix[:, valid_cols]
+valid_categories = [c for c, keep in zip(all_categories, valid_cols) if keep]
+
+
+
+def corrcoef_nan_aware(matrix):
+    n_features = matrix.shape[1]
+    corr = np.zeros((n_features, n_features))
+
+    for i in range(n_features):
+        for j in range(n_features):
+            xi = matrix[:, i]
+            xj = matrix[:, j]
+            mask = ~np.isnan(xi) & ~np.isnan(xj)
+            if mask.sum() < 2:   # 样本太少，相关系数设为 0
+                corr[i, j] = 0.0
+            else:
+                corr[i, j] = np.corrcoef(xi[mask], xj[mask])[0, 1]
+    return corr
+
+corr_matrix = corrcoef_nan_aware(data_matrix)
+
+plt.figure(figsize=(8, 6))
+ax = sns.heatmap(
+    corr_matrix,
+    xticklabels=valid_categories,
+    yticklabels=valid_categories,
+    annot=True,
+    fmt=".2f",
+    cmap="coolwarm",
+    vmin=-1,
+    vmax=1
+)
+
+plt.title("Correlation of Answer Rates Between Categories\n(Effective Users Only)")
+plt.tight_layout()
+plt.savefig("category_correlation_heatmap.png", dpi=150)
+plt.close()
+
+print(" Correlation heatmap saved as category_correlation_heatmap.png")

@@ -110,7 +110,7 @@ def main():
     questions = load_questions("convert_data.json")
     responses = simulate_answers_for_users(
         questions,
-        num_users=1000,
+        num_users=8466,
         min_q=10,
         max_q=20,
     )
