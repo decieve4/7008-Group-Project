@@ -53,20 +53,11 @@ def clean_question_text(text):
     if start_match:
         text = text[start_match.start():]
 
-    return text.strip()
-
-    # ============================================================
-    # NEW LOGIC: Strict Question Mark Filter
-    # ============================================================
-    # Checks for English (?) or Chinese (？) mark at the end.
-    # If missing, return empty string to ensure it is removed.
+    # C. Strict Question Mark Filter
     if not re.search(r'[?？]\s*$', text):
         return "" 
-    # ============================================================
 
-    return text
-
-
+    return text.strip()
 
 def normalize_for_dedup(text, lang):
     if not isinstance(text, str): return ""
@@ -108,7 +99,9 @@ def calculate_difficulty(row):
     text = str(row.get('question_text', ''))
     q_type = str(row.get('question_type', '')).lower()
     options = str(row.get('options_text', ''))
-    lang = row.get('detected_lang', 'en')
+    
+    # --- CHANGED: Use 'language' instead of 'detected_lang' ---
+    lang = row.get('language', 'en') 
 
     # A. TYPE FACTOR
     if 'open_ended' in q_type:
@@ -218,28 +211,31 @@ def load_and_process_data(filepath):
 
         # 1. Clean text
         df['question_text'] = df['question_text'].apply(clean_question_text)
+        # Remove rows that became empty after cleaning
         df = df[df['question_text'].str.len() > 2].reset_index(drop=True)
-
-        # 2. Detect Language
-        def detect_lang(text):
-            if re.search(r'[\u4e00-\u9fa5]', str(text)): return 'zh'
-            return 'en'
-        df['detected_lang'] = df['question_text'].apply(detect_lang)
 
         # 3. Deduplicate
         print("Normalizing for duplicate detection...")
         df['dedup_key'] = df.apply(
-            lambda x: normalize_for_dedup(str(x['question_text']) + " " + str(x.get('options_text', '')), x['detected_lang']), 
+            # Use x['language'] directly
+            lambda x: normalize_for_dedup(str(x['question_text']) + " " + str(x.get('options_text', '')), x['language']), 
             axis=1
         )
         df.drop_duplicates(subset=['dedup_key'], keep='first', inplace=True)
         
         # 4. Calculate Difficulty 
         df['difficulty_score'] = df.apply(calculate_difficulty, axis=1)
+        
+        # ============================================================
+        # SAVE COMBINED CLEANED DATA TO JSON
+        # ============================================================
+        print("Saving cleaned dataset (cleaned_questions_all.json)...")
+        df.to_json('cleaned_questions_all.json', orient='records', force_ascii=False, indent=4)
+        # ============================================================
 
-        # 5. Split into English and Chinese tables
-        df_en = df[df['detected_lang'] == 'en'].copy().reset_index(drop=True)
-        df_zh = df[df['detected_lang'] == 'zh'].copy().reset_index(drop=True)
+        # 5. Split into English and Chinese tables using 'language' column
+        df_en = df[df['language'] == 'en'].copy().reset_index(drop=True)
+        df_zh = df[df['language'] == 'zh'].copy().reset_index(drop=True)
         
         # --- DATA REPORT ---
         print("\n" + "="*50)
@@ -261,7 +257,7 @@ def load_and_process_data(filepath):
         return pd.DataFrame(), pd.DataFrame()
 
 # ==========================================
-# 5. GENERATION ENGINE (Main Logic)
+# 5. GENERATION ENGINE 
 # ==========================================
 
 def generate_survey(df, lang, target_count=10):
@@ -323,10 +319,8 @@ def generate_survey(df, lang, target_count=10):
                     # Create star rating string (e.g. ★★★☆☆)
                     diff_label = "★" * diff_score + "☆" * (5 - diff_score)
 
-                    # === FIXED PRINT STATEMENTS BELOW ===
                     print(f"{count + 1}. [Match: {int(score*100)}%] [Diff: {diff_score} {diff_label}]")
                     print(f"    {q_text}")
-                    # ====================================
                     
                     # Show Options if they exist
                     opts = df.iloc[idx].get('options_text')
@@ -344,8 +338,8 @@ def generate_survey(df, lang, target_count=10):
 # ==========================================
 
 if __name__ == "__main__":
-    # Path of input file (Make sure to update this if needed)
-    file_path = r"C:\Users\User\Desktop\questions.json"
+    # Path of input file 
+    file_path = r"./travel_survey_final/questions.json"
     
     # Step 1: Load and Process Data
     english_df, chinese_df = load_and_process_data(file_path)
@@ -357,10 +351,10 @@ if __name__ == "__main__":
     # Step 2: User Menu Loop
     while True:
         print("\n=========================================")
-        print("   TOP 10 RELATED QUESTIONS")
+        print("   SURVEY GENERATOR SYSTEM")
         print("=========================================")
-        print("1. English Survey")
-        print("2. Chinese Survey")
+        print("1. Generate English Survey")
+        print("2. Generate Chinese Survey")
         print("Type 'exit' to close program.")
         
         choice = input("Select: ").strip().lower()
