@@ -307,7 +307,7 @@ if __name__ == "__main__":
     except EOFError:
         user_input = ''
 
-    # 情况 1：用户没有输入 free-text，用默认 / 现有 requirements 生成问卷，不修改主配置文件
+    # Case 1: User doesn't input free-text, use default/existing requirements to generate questionnaire, without modifying the main configuration file
     if not user_input:
         if os.path.exists(default_req_file):
             used_req_file = default_req_file
@@ -321,11 +321,11 @@ if __name__ == "__main__":
               f"{len(out.get('question_ids', []))} ids")
         sys.exit(0)
 
-    # 情况 2：用户输入了 free-text
-    # 1）记录 free_text_input
-    # 2）推断 language/topic/categories
-    # 3）写回主 requirements 文件
-    # 4）基于更新后的 requirements 生成问卷
+    # Case 2: User input free-text
+    # 1) Record free_text_input
+    # 2) Infer language/topic/categories
+    # 3) Write back to main requirements file
+    # 4) Generate questionnaire based on updated requirements
     try:
         with open(req_file, 'r', encoding='utf-8') as fr:
             req_obj = json.load(fr)
@@ -374,13 +374,13 @@ if __name__ == "__main__":
                     inferred_categories.append('Usage')
                 elif 'food' in label.lower():
                     inferred_categories.append('Recommendation')
-        inferred_categories = list(dict.fromkeys(inferred_categories))  # 去重
+        inferred_categories = list(dict.fromkeys(inferred_categories))  # Remove duplicates
     else:
         for label, kws in topic_keywords_zh.items():
             if any(k in user_input for k in kws):
                 if '酒店' in user_input or '酒店' in ''.join(kws):
                     inferred_categories.append('Satisfaction')
-        inferred_categories = list(dict.fromkeys(inferred_categories))  # 去重
+        inferred_categories = list(dict.fromkeys(inferred_categories))  # Remove duplicates
 
     # Update and persist the main requirements file with inferred fields
     req_obj['requirements']['topic'] = topic_guess
@@ -397,3 +397,4 @@ if __name__ == "__main__":
     out = generate_questionnaire(req_file, db_path="convert_data.json")
     print(f"Wrote output_questionaire.json and output_questionaire.txt with "
           f"{len(out.get('question_ids', []))} ids")
+
