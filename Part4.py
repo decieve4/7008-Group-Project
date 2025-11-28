@@ -230,7 +230,7 @@ def load_and_process_data(filepath):
         # SAVE COMBINED CLEANED DATA TO JSON
         # ============================================================
         print("Saving cleaned dataset (cleaned_questions_all.json)...")
-        df.to_json('cleaned_questions_all.json', orient='records', force_ascii=False, indent=4)
+        df.to_json('./travel_survey_final/cleaned_questions_all.json', orient='records', force_ascii=False, indent=4)
         # ============================================================
 
         # 5. Split into English and Chinese tables using 'language' column
@@ -370,6 +370,7 @@ if __name__ == "__main__":
             sys.exit(0)
         else:
             print("Invalid selection.")
+
 
 
 
