@@ -1,179 +1,279 @@
-import matplotlib.pyplot as plt
+import pandas as pd
 import seaborn as sns
-from typing import Dict, Any, List
-import os
-
+import matplotlib.pyplot as plt
+from typing import Optional
 
 class DataVisualization:
-    """
-    Data Visualization Class
-    Main function: Generate various charts to display system status and analysis results
-    """
+    def __init__(self, df: pd.DataFrame):
+        self.df = df.copy()
 
-    def __init__(self):
-        self.chart_templates = {}  # Chart template configuration
+    @classmethod
+    def from_json(cls, json_path: str):
+        df = pd.read_json(json_path)
+        return cls(df)
 
-    def create_cluster_visualization(self, cluster_data: Dict[str, Any]) -> str:
-        """
-        Create cluster result visualization chart
-        Display: Distribution of questions in 2D space, different clusters in different colors
-        """
-        # TODO: Use matplotlib/seaborn to create scatter plot
-        # Display distribution of each cluster and cluster centers
-
-        return "cluster_visualization.png"  # Return chart file path
-
-    def create_category_distribution_chart(self, category_data: Dict[str, int]) -> str:
-        """
-        Create question category distribution chart
-        Display: Number distribution of questions across travel question categories
-        """
-        # TODO: Create bar chart or pie chart
-        # Display number of questions in accommodation, transportation, food, etc. categories
-
-        filtered_data = {k: v for k, v in category_data.items() if k.lower() != "general"}
-
-        categories = list(filtered_data.keys())
-        counts = list(filtered_data.values())
-
-        plt.figure(figsize=(8, 6))
-        sns.set(style="whitegrid")
-        sns.barplot(x=categories, y=counts, hue=categories, palette="pastel", legend=False)
-
-        plt.title("Question Category Distribution (Excluding 'General')", fontsize=14)
-        plt.xlabel("Category")
-        plt.ylabel("Number of Questions")
-        plt.xticks(rotation=30)
-
-        output_path = "category_distribution.png"
-        plt.savefig(output_path, dpi=150)
-        plt.close()
-
-        return output_path
-        # return "category_distribution.png"
-
-    def create_complexity_analysis_chart(self, complexity_data: Dict[str, int]) -> str:
-        """
-        Create complexity analysis chart
-        Display: Proportion distribution of easy, medium, hard questions
-        """
-        # TODO: Create stacked bar chart or donut chart
-
-        difficulties = []
-        for diff_str, count in complexity_data.items():
-            diff = float(diff_str)  # 字典 key 是 str，需要转 float
-            difficulties.extend([diff] * count)
-
-        if len(difficulties) == 0:
-            print("Warning: No difficulty data to plot.")
-            return ""
+    def plot_difficulty_distribution(self, bins: int = 10):
+        if 'difficulty_score' not in self.df.columns:
+            raise KeyError("Column 'difficulty_score' not found in DataFrame.")
 
         plt.figure(figsize=(8, 5))
-        sns.set(style="whitegrid")
-
-        # 直方图 + KDE 曲线
         sns.histplot(
-            difficulties,
-            bins=6,
-            kde=True,
-            color="skyblue",
-            edgecolor="black"
+            data=self.df,
+            x='difficulty_score',
+            bins=bins,
+            color='steelblue'  # no kde parameter -> no curve
         )
-
-        plt.title("Difficulty Distribution", fontsize=14)
-        plt.xlabel("Difficulty Score")
-        plt.ylabel("Number of Questions")
-
-        output_path = "complexity_analysis.png"
+        plt.title('Distribution of Difficulty Score')
+        plt.xlabel('Difficulty Score')
+        plt.ylabel('Count')
         plt.tight_layout()
-        plt.savefig(output_path, dpi=150)
-        plt.close()
+        plt.show()
 
-        return output_path
-        #return "complexity_analysis.png"
+    def plot_question_type_distribution(self):
+        if 'question_type' not in self.df.columns:
+            raise KeyError("Column 'question_type' not found in DataFrame.")
 
-    def create_platform_comparison_chart(self, platform_data: Dict[str, int]) -> str:
+        plt.figure(figsize=(8, 5))
+        order = self.df['question_type'].value_counts().index
+        sns.countplot(
+            data=self.df,
+            x='question_type',
+            order=order,
+            color='seagreen'
+        )
+        plt.title('Distribution of Question Type')
+        plt.xlabel('Question Type')
+        plt.ylabel('Count')
+        plt.xticks(rotation=45, ha='right')
+        plt.tight_layout()
+        plt.show()
+
+    def plot_category_distribution(self, top_n: Optional[int] = None):
+        if 'category' not in self.df.columns:
+            raise KeyError("Column 'category' not found in DataFrame.")
+
+        # Exclude 'general' category
+        df_no_general = self.df[self.df['category'] != 'general']
+
+        counts = df_no_general['category'].value_counts()
+        if top_n is not None:
+            counts = counts.head(top_n)
+
+        plt.figure(figsize=(8, 5))
+        sns.barplot(
+            x=counts.index,
+            y=counts.values,
+            color='coral'
+        )
+        title = 'Distribution of Category'
+        #if top_n is not None:
+            #title += f' (Top {top_n})'
+        plt.title(title)
+        plt.xlabel('Category')
+        plt.ylabel('Count')
+        plt.xticks(rotation=45, ha='right')
+        plt.tight_layout()
+        plt.show()
+
+
+    def plot_difficulty_by_question_type(self):
         """
-        Create platform data comparison chart
-        Display: Comparison of question quantity and quality across different travel platforms
+        Boxplot of difficulty_score grouped by question_type.
         """
-        # TODO: Create multi-series bar chart
-        # Compare data characteristics of Ctrip, Booking.com, etc. platforms
-        return "platform_comparison.png"
+        required_cols = {'difficulty_score', 'question_type'}
+        missing = required_cols - set(self.df.columns)
+        if missing:
+            raise KeyError(f"Missing columns: {missing}")
 
-    def create_survey_progress_dashboard(self, survey_data: Dict[str, Any]) -> str:
+        plt.figure(figsize=(8, 5))
+        sns.boxplot(
+            data=self.df,
+            x='question_type',
+            y='difficulty_score',
+            color='skyblue'
+        )
+        plt.title('Difficulty by Question Type')
+        plt.xlabel('Question Type')
+        plt.ylabel('Difficulty Score')
+        plt.xticks(rotation=45, ha='right')
+        plt.tight_layout()
+        plt.show()
+
+
+    def plot_difficulty_by_category(self, top_n: int | None = 10):
         """
-        Create survey progress dashboard
-        Display: Questionnaire completion status, user participation, etc.
+        Boxplot of difficulty_score grouped by category,
+        excluding 'general'. Optionally limit to top_n categories by count.
         """
-        # TODO: Create comprehensive dashboard
-        return "survey_dashboard.html"
+        required_cols = {'difficulty_score', 'category'}
+        missing = required_cols - set(self.df.columns)
+        if missing:
+            raise KeyError(f"Missing columns: {missing}")
 
-    def create_question_relationship_graph(self, relationship_data: List[Dict]) -> str:
+        df_no_general = self.df[self.df['category'] != 'general'].copy()
+        if df_no_general.empty:
+            raise ValueError("No rows left after excluding 'general' category.")
+
+        # focus on most frequent categories
+        if top_n is not None:
+            top_cats = (
+                df_no_general['category']
+                .value_counts()
+                .head(top_n)
+                .index
+            )
+            df_no_general = df_no_general[df_no_general['category'].isin(top_cats)]
+
+        plt.figure(figsize=(10, 5))
+        sns.boxplot(
+            data=df_no_general,
+            x='category',
+            y='difficulty_score',
+            color='lightcoral'
+        )
+        plt.title('Difficulty by Category (excluding "general")')
+        plt.xlabel('Category')
+        plt.ylabel('Difficulty Score')
+        plt.xticks(rotation=45, ha='right')
+        plt.tight_layout()
+        plt.show()
+
+
+    def plot_question_length_distribution(self, bins: int = 20):
         """
-        Create question relationship network graph
-        Display: Hierarchical relationships and association networks between questions
+        Histogram of question_text length in characters.
         """
-        # TODO: Use networkx to create network graph
-        # Nodes represent questions, edges represent association relationships
-        return "question_relationship.png"
+        if 'question_text' not in self.df.columns:
+            raise KeyError("Column 'question_text' not found in DataFrame.")
 
-    def create_user_analysis_report(self, user_data: Dict[str, Any]) -> str:
+        lengths = self.df['question_text'].astype(str).str.len()
+
+        plt.figure(figsize=(8, 5))
+        sns.histplot(lengths, bins=bins, color='mediumpurple')
+        plt.title('Distribution of Question Length (characters)')
+        plt.xlabel('Question Length (characters)')
+        plt.ylabel('Count')
+        plt.tight_layout()
+        plt.show()
+
+
+    def plot_type_category_heatmap(self, min_count: int = 1):
         """
-        Create personalized analysis report for individual user
-        Input: User data, including user profile, answer records, classification results, dimension scores, etc.
-        Output: Visualization (such as html)
+        Heatmap of counts of questions by (question_type, category),
+        excluding 'general' and optionally filtering out rare combos.
         """
-        # TODO: Report content: User type, classification basis (key answers), feature radar chart (displaying user scores across multiple dimensions), personalized travel recommendations (destinations, activities, budget, etc.) implement detailed analysis (such as html implementation), mainly including overall user behavior analysis, preference insights, and feedback after individual user completes all questions (user type and personalized recommendations)
-        return "user_analysis_report.html"
+        required_cols = {'question_type', 'category'}
+        missing = required_cols - set(self.df.columns)
+        if missing:
+            raise KeyError(f"Missing columns: {missing}")
 
-    def create_allusers_analysis_report(self, system_data: Dict[str, Any]) -> str:
-        """Generate overall user analysis report
-           Total users, classification status, completion rate, etc.
+        df_no_general = self.df[self.df['category'] != 'general']
+
+        crosstab = pd.crosstab(df_no_general['question_type'],
+                               df_no_general['category'])
+
+        # optionally zero out very rare combos
+        crosstab = crosstab.where(crosstab >= min_count, other=0)
+
+        plt.figure(figsize=(10, 6))
+        sns.heatmap(
+            crosstab,
+            annot=True,
+            fmt='g',
+            cmap='Blues'
+        )
+        plt.title('Question Type vs Category (counts, excluding "general")')
+        plt.xlabel('Category')
+        plt.ylabel('Question Type')
+        plt.tight_layout()
+        plt.show()
+
+
+    def _get_question_length_series(self):
         """
-        return "allusers_analysis_report.html"
-
-    def export_all_visualizations(self, system_data: Dict[str, Any]) -> Dict[str, str]:
+        内部小工具：返回题目长度（字符数）的 Series。
         """
-        Export all visualization charts
-        Input: Data from various system modules
-        Output: Dictionary of paths to various chart files
+        if "question_text" not in self.df.columns:
+            raise KeyError("DataFrame 中缺少 'question_text' 列")
+        return self.df["question_text"].astype(str).str.len()
+
+    def plot_difficulty_vs_question_length(self, sample: int | None = 500):
         """
-        visualizations = {
-            'clusters': self.create_cluster_visualization(system_data.get('cluster_data', {})),
-            'categories': self.create_category_distribution_chart(system_data.get('category_data', {})),
-            'complexity': self.create_complexity_analysis_chart(system_data.get('complexity_data', {})),
-            'platforms': self.create_platform_comparison_chart(system_data.get('platform_data', {})),
-            'survey_dashboard': self.create_survey_progress_dashboard(system_data.get('survey_data', {})),
-            'relationships': self.create_question_relationship_graph(system_data.get('relationship_data', [])),
-            'individual_user_report': self.create_user_analysis_report(system_data.get('user_data', {})),
-            'all_users_report': self.create_allusers_analysis_report(system_data.get('system_stats', {}))
-        }
-        return visualizations
+        难度 vs 题目长度散点图。
+        sample: 如果数据太多，可以随机采样一部分点来画。
+        """
+        if "difficulty_score" not in self.df.columns:
+            raise KeyError("DataFrame 中缺少 'difficulty_score' 列")
+
+        lengths = self._get_question_length_series()
+        data = pd.DataFrame({
+            "difficulty_score": self.df["difficulty_score"],
+            "question_length": lengths
+        }).dropna()
+
+        if sample is not None and len(data) > sample:
+            data = data.sample(sample, random_state=42)
+
+        plt.figure(figsize=(8, 5))
+        sns.scatterplot(
+            data=data,
+            x="question_length",
+            y="difficulty_score",
+            alpha=0.6
+        )
+        plt.title("Difficulty vs Question Length")
+        plt.xlabel("Question Length (characters)")
+        plt.ylabel("Difficulty Score")
+        plt.tight_layout()
+        plt.show()
 
 
-import json
+    def _get_option_count_series(self, delimiter: str = "||"):
+        """
+        内部小工具：返回每题选项数量的 Series。
+        """
+        if "options_text" not in self.df.columns:
+            raise KeyError("DataFrame 中缺少 'options_text' 列")
 
-with open("convert_data.json", "r") as f:
-    data = json.load(f)
+        def count_options(val):
+            if pd.isna(val):
+                return 0
+            if isinstance(val, (list, tuple)):
+                return len(val)
+            s = str(val).strip()
+            if not s:
+                return 0
+            return len(s.split(delimiter))
 
-questions = data["questions"]
+        return self.df["options_text"].map(count_options)
 
-category_count = {}
+    def plot_numeric_correlation_heatmap(self, delimiter: str = "||"):
+        """
+        画 difficulty_score、question_length、option_count 等数值特征的相关性热力图。
+        """
+        if "difficulty_score" not in self.df.columns:
+            raise KeyError("DataFrame 中缺少 'difficulty_score' 列")
 
-for q in questions:
-    cat = q["category"]
-    category_count[cat] = category_count.get(cat, 0) + 1
+        lengths = self._get_question_length_series()
+        option_counts = self._get_option_count_series(delimiter=delimiter)
 
-viz = DataVisualization()
-viz.create_category_distribution_chart(category_count)
+        num_df = pd.DataFrame({
+            "difficulty_score": self.df["difficulty_score"],
+            "question_length": lengths,
+            "option_count": option_counts
+        }).dropna()
 
-difficulty_count = {}
-for q in questions:
-    diff = str(q["difficulty"])       # 转成字符串做 key（如 "2.0"）
-    difficulty_count[diff] = difficulty_count.get(diff, 0) + 1
+        corr = num_df.corr()
 
-viz = DataVisualization()
-viz.create_complexity_analysis_chart(difficulty_count)
-
-
+        plt.figure(figsize=(6, 5))
+        sns.heatmap(
+            corr,
+            annot=True,
+            cmap="coolwarm",
+            vmin=-1,
+            vmax=1,
+            square=True
+        )
+        plt.title("Correlation between Numeric Features")
+        plt.tight_layout()
+        plt.show()
