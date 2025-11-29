@@ -115,6 +115,13 @@ def reclassify_general_by_keywords(
 
 if __name__ == "__main__":
     df = pd.read_json("cleaned_questions_all.json")
-    df_new = reclassify_general_by_keywords(df, CATEGORY_KEYWORDS)
+    df_reclassified = reclassify_general_by_keywords(df, CATEGORY_KEYWORDS)
+    if "question_type" not in df_reclassified.columns:
+        raise KeyError("DataFrame is missing 'question_type' column")
+
+    remove_types = ["yes_no", "multiple_choice"]
+    mask_keep = ~df_reclassified["question_type"].isin(remove_types)
+    df_final = df_reclassified[mask_keep].reset_index(drop=True)
     output_path = "questions_reclassified.json"
-    df_new.to_json(output_path, orient="records", force_ascii=False, indent=2)
+    df_final.to_json(output_path, orient="records", force_ascii=False, indent=2)
+
