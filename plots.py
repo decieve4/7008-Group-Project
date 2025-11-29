@@ -1,5 +1,5 @@
 from Visualization import DataVisualization  # or whatever your file is named
-viz = DataVisualization.from_json("questions_reclassified.json")
+viz = DataVisualization.from_json("questions_reclassified_v2.json")
 
 viz.plot_difficulty_distribution(bins=15)
 viz.plot_question_type_distribution()
@@ -10,12 +10,18 @@ viz.plot_question_length_distribution()
 viz.plot_type_category_heatmap(min_count=2)
 viz.plot_difficulty_vs_question_length()
 viz.plot_numeric_correlation_heatmap()
+viz.print_numeric_descriptive_stats()
+viz.plot_overview_subplots()
+viz.plot_numeric_pairplot(hue="category")
+viz.plot_difficulty_vs_length_regression(hue="question_type")
+viz.facet_difficulty_by_category(top_n=6)
+viz.jointplot_difficulty_vs_length(kind="hex")
 
 import pandas as pd
 
 # 1. 读入修改前、修改后的数据
-df_before = pd.read_json("cleaned_questions_all.json")
-df_after  = pd.read_json("cleaned_questions_reclassified_no_yesno_multichoice.json")
+df_before = pd.read_json("cleaned_questions_all_v2.json")
+df_after  = pd.read_json("questions_reclassified_v2.json")
 
 # 2. 计算各 category 的数量（按名称排序方便对比）
 counts_before = df_before["category"].value_counts().sort_index()
