@@ -550,17 +550,6 @@
     "difficulty_score":3
   },
   {
-    "question_text":"Did youyourselfcall to make the arrangements for this flight?",
-    "options_text":"Yes \/ No",
-    "question_type":"yes_no",
-    "category":"general",
-    "language":"en",
-    "source_url":"https:\/\/www.questionpro.com\/survey-templates\/travel-survey\/",
-    "source_name":"QuestionPro-Travel",
-    "dedup_key":"youyourselfcall arrangement flight yes",
-    "difficulty_score":1
-  },
-  {
     "question_text":"Why do we use travel surveys?",
     "options_text":"",
     "question_type":"open_ended",
