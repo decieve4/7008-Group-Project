@@ -70,9 +70,6 @@ def reclassify_general_by_keywords(
 
     df = df.copy()
 
-    if "category" not in df.columns:
-        raise KeyError("DataFrame 中缺少 'category' 列")
-
     mask_general = df["category"] == "general"
     general_indices = np.flatnonzero(mask_general.to_numpy())
 
