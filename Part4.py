@@ -54,8 +54,8 @@ def clean_question_text(text):
         text = text[start_match.start():]
 
     # C. Strict Question Mark Filter (Depends on whether strengthen the cleansing requirement)
-    if not re.search(r'[?？]\s*$', text):
-        return "" 
+    #if not re.search(r'[?？]\s*$', text):
+        #return "" 
 
     return text.strip()
 
@@ -370,6 +370,7 @@ if __name__ == "__main__":
             sys.exit(0)
         else:
             print("Invalid selection.")
+
 
 
 
