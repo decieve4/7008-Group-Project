@@ -18,31 +18,22 @@ viz.facet_difficulty_by_category(top_n=6)
 viz.jointplot_difficulty_vs_length(kind="hex")
 
 import pandas as pd
-
-# 1. 读入修改前、修改后的数据
 df_before = pd.read_json("cleaned_questions_all_v2.json")
 df_after  = pd.read_json("questions_reclassified_v2.json")
-
-# 2. 计算各 category 的数量（按名称排序方便对比）
 counts_before = df_before["category"].value_counts().sort_index()
 counts_after  = df_after["category"].value_counts().sort_index()
-
-# 3. 合并成一个对比表
 comparison = pd.DataFrame({
     "before": counts_before,
     "after": counts_after
 })
-
-# 没出现过的类别会是 NaN，这里填 0 并转成 int
 comparison = comparison.fillna(0).astype(int)
 
-# 再加一列差值：after - before
 comparison["diff"] = comparison["after"] - comparison["before"]
 
 # 4. 打印结果
-print("各 category 在修改前后数量对比：")
+print(" category comparison：")
 print(comparison)
 
 # 可选：总数检查一下
-print("\n总题目数（前）：", len(df_before))
-print("总题目数（后）：", len(df_after))
+print("\ntotal（before）：", len(df_before))
+print("total（after）：", len(df_after))

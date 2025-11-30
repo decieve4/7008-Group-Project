@@ -77,9 +77,6 @@ class DataVisualization:
 
 
     def plot_difficulty_by_question_type(self):
-        """
-        Boxplot of difficulty_score grouped by question_type.
-        """
         required_cols = {'difficulty_score', 'question_type'}
         missing = required_cols - set(self.df.columns)
         if missing:
@@ -101,10 +98,6 @@ class DataVisualization:
 
 
     def plot_difficulty_by_category(self, top_n: int | None = 10):
-        """
-        Boxplot of difficulty_score grouped by category,
-        excluding 'general'. Optionally limit to top_n categories by count.
-        """
         required_cols = {'difficulty_score', 'category'}
         missing = required_cols - set(self.df.columns)
         if missing:
@@ -140,9 +133,6 @@ class DataVisualization:
 
 
     def plot_question_length_distribution(self, bins: int = 20):
-        """
-        Histogram of question_text length in characters.
-        """
         if 'question_text' not in self.df.columns:
             raise KeyError("Column 'question_text' not found in DataFrame.")
 
@@ -158,10 +148,6 @@ class DataVisualization:
 
 
     def plot_type_category_heatmap(self, min_count: int = 1):
-        """
-        Heatmap of counts of questions by (question_type, category),
-        excluding 'general' and optionally filtering out rare combos.
-        """
         required_cols = {'question_type', 'category'}
         missing = required_cols - set(self.df.columns)
         if missing:
@@ -172,7 +158,6 @@ class DataVisualization:
         crosstab = pd.crosstab(df_no_general['question_type'],
                                df_no_general['category'])
 
-        # optionally zero out very rare combos
         crosstab = crosstab.where(crosstab >= min_count, other=0)
 
         plt.figure(figsize=(10, 6))
@@ -190,20 +175,13 @@ class DataVisualization:
 
 
     def _get_question_length_series(self):
-        """
-        内部小工具：返回题目长度（字符数）的 Series。
-        """
         if "question_text" not in self.df.columns:
             raise KeyError("DataFrame 中缺少 'question_text' 列")
         return self.df["question_text"].astype(str).str.len()
 
     def plot_difficulty_vs_question_length(self, sample: int | None = 500):
-        """
-        难度 vs 题目长度散点图。
-        sample: 如果数据太多，可以随机采样一部分点来画。
-        """
         if "difficulty_score" not in self.df.columns:
-            raise KeyError("DataFrame 中缺少 'difficulty_score' 列")
+            raise KeyError("DataFrame lack of 'difficulty_score' row")
 
         lengths = self._get_question_length_series()
         data = pd.DataFrame({
@@ -229,11 +207,8 @@ class DataVisualization:
 
 
     def _get_option_count_series(self, delimiter: str = "||"):
-        """
-        内部小工具：返回每题选项数量的 Series。
-        """
         if "options_text" not in self.df.columns:
-            raise KeyError("DataFrame 中缺少 'options_text' 列")
+            raise KeyError("DataFrame lack of 'options_text' row")
 
         def count_options(val):
             if pd.isna(val):
@@ -248,11 +223,8 @@ class DataVisualization:
         return self.df["options_text"].map(count_options)
 
     def plot_numeric_correlation_heatmap(self, delimiter: str = "||"):
-        """
-        画 difficulty_score、question_length、option_count 等数值特征的相关性热力图。
-        """
         if "difficulty_score" not in self.df.columns:
-            raise KeyError("DataFrame 中缺少 'difficulty_score' 列")
+            raise KeyError("DataFrame lack of 'difficulty_score' row")
 
         lengths = self._get_question_length_series()
         option_counts = self._get_option_count_series(delimiter=delimiter)
@@ -279,7 +251,6 @@ class DataVisualization:
         plt.show()
 
     def _question_length(self):
-        """Return a Series with question length in characters."""
         if "question_text" not in self.df.columns:
             raise KeyError("Missing 'question_text' column.")
         return self.df["question_text"].astype(str).str.len()
@@ -287,10 +258,6 @@ class DataVisualization:
 
 
     def plot_numeric_pairplot(self, hue: str | None = "category"):
-        """
-        Pairplot of numeric variables (difficulty, question length, option count),
-        optionally colored by 'category' or 'question_type'.
-        """
         import seaborn as sns
         import matplotlib.pyplot as plt
 
@@ -320,10 +287,6 @@ class DataVisualization:
 
 
     def plot_difficulty_vs_length_regression(self, hue: str = "question_type"):
-        """
-        Regression plot of difficulty_score vs question_length,
-        colored by the chosen categorical variable (default: question_type).
-        """
         import seaborn as sns
         import matplotlib.pyplot as plt
 
@@ -335,7 +298,7 @@ class DataVisualization:
         df_plot["question_length"] = self._question_length()
 
         if hue not in df_plot.columns:
-            hue = None  # fall back to no hue if not available
+            hue = None
 
         g = sns.lmplot(
             data=df_plot,
@@ -351,10 +314,6 @@ class DataVisualization:
         plt.tight_layout()
         plt.show()
     def facet_difficulty_by_category(self, top_n: int = 6, bins: int = 8):
-        """
-        Faceted histograms of difficulty_score for the top-N categories
-        (excluding 'general').
-        """
         import seaborn as sns
         import matplotlib.pyplot as plt
 
@@ -373,10 +332,6 @@ class DataVisualization:
         g.fig.suptitle("Difficulty Distribution by Category")
         plt.show()
     def jointplot_difficulty_vs_length(self, kind: str = "scatter"):
-        """
-        Joint plot of difficulty_score vs question_length.
-        kind: 'scatter', 'hex', or 'kde'.
-        """
         import seaborn as sns
         import matplotlib.pyplot as plt
 
@@ -397,9 +352,6 @@ class DataVisualization:
         g.set_axis_labels("Question Length (chars)", "Difficulty Score")
         plt.show()
     def print_numeric_descriptive_stats(self):
-        """
-        Print basic descriptive statistics for key numeric columns.
-        """
         candidate_cols = ["difficulty_score", "question_length", "option_count"]
         # only keep the ones that actually exist
         cols = [c for c in candidate_cols if c in self.df.columns]
@@ -415,13 +367,6 @@ class DataVisualization:
         print(self.df[cols].describe().T.round(2))
 
     def plot_overview_subplots(self, top_n_categories: int = 8):
-        """
-        2x2 overview figure:
-        - difficulty histogram
-        - question length histogram
-        - top-N category counts
-        - question type counts
-        """
         import matplotlib.pyplot as plt
         import seaborn as sns
 
