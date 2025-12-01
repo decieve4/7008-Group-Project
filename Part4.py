@@ -351,10 +351,10 @@ if __name__ == "__main__":
     # Step 2: User Menu Loop
     while True:
         print("\n=========================================")
-        print("   SURVEY GENERATOR SYSTEM")
+        print("   Top Revelent Questions")
         print("=========================================")
-        print("1. Generate English Survey")
-        print("2. Generate Chinese Survey")
+        print("1. Top 10 revelent English questions")
+        print("2. Top 10 revelent Chinese questions")
         print("Type 'exit' to close program.")
         
         choice = input("Select: ").strip().lower()
@@ -370,6 +370,7 @@ if __name__ == "__main__":
             sys.exit(0)
         else:
             print("Invalid selection.")
+
 
 
 
