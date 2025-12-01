@@ -4,19 +4,11 @@ config:
   theme: mc
 ---
 classDiagram
-    %% Core System Classes
-    class SurveySystem {
+    %% Core System Classes (Based on actual code)
+    class QuestionBankSystem {
         +uploadQuestionBank(file)
         +generateSurvey(requirements)
         +analyzeResults(surveyData)
-    }
-    
-    class WebApplication {
-        -Flask app
-        +index()
-        +download_json()
-        +download_txt()
-        +build_requirements_json()
     }
     
     %% Data Layer Classes
@@ -35,6 +27,7 @@ classDiagram
         -int difficulty
         -String language
         -List~String~ options
+        -String dedupKey
     }
     
     class SurveyRequirement {
@@ -44,11 +37,12 @@ classDiagram
         -String userInput
     }
     
-    %% Processing Engine Classes
-    class DataCollector {
-        +crawl_web_data()
+    %% Processing Engine Classes (From actual code)
+    class WebCrawler {
+        +crawl_all()
         +parse_survey_pages()
         +extract_questions()
+        +save_all()
     }
     
     class DataProcessor {
@@ -61,43 +55,34 @@ classDiagram
     class CategoryClassifier {
         -Dict category_keywords
         +reclassify_general_by_keywords()
-        +categorize_question()
     }
     
     class SurveyGenerator {
-        -TFIDFEngine vectorizer
+        +generate_survey()
         +generate_questionnaire()
-        +calculate_cosine_similarity()
     }
     
-    class DataAnalyzer {
-        +analyze_dataset_content()
+    class DataVisualization {
         +plot_difficulty_distribution()
         +plot_category_distribution()
         +plot_question_type_distribution()
     }
     
-    class FileExporter {
-        +export_to_json()
-        +export_to_txt()
-    }
-    
     %% Core System Relationships
-    WebApplication --> SurveySystem : User Interaction
-    SurveySystem --> QuestionBank : Manages
-    SurveySystem --> SurveyGenerator : Generates Surveys
-    SurveySystem --> DataAnalyzer : Analyzes Results
+    QuestionBankSystem --> QuestionBank : manages
+    QuestionBankSystem --> WebCrawler : uses
+    QuestionBankSystem --> SurveyGenerator : uses
     
     %% Data Processing Pipeline
-    DataCollector --> QuestionBank : Collects Data
-    DataProcessor --> QuestionBank : Cleans & Processes
-    CategoryClassifier --> QuestionBank : Classifies & Tags
+    WebCrawler --> QuestionBank : populates
+    DataProcessor --> QuestionBank : processes
+    CategoryClassifier --> Question : classifies
     
     %% Survey Generation Flow
-    SurveyRequirement --> SurveyGenerator : Input Requirements
-    QuestionBank --> SurveyGenerator : Provides Questions
-    SurveyGenerator --> FileExporter : Outputs Results
+    SurveyRequirement --> SurveyGenerator : input
+    QuestionBank --> SurveyGenerator : selects from
+    SurveyGenerator --> DataVisualization : visualizes
     
     %% Component Dependencies
-    DataProcessor --> CategoryClassifier : Uses Classifier
-    DataAnalyzer --> Question : Analyzes Features
+    DataProcessor --> CategoryClassifier : uses
+    SurveyGenerator --> DataProcessor : uses processing
