@@ -1,18 +1,17 @@
 ---
 config:
-  layout: dagre
-  theme: mc
+  layout: elk
+  theme: default
 ---
 classDiagram
-    %% Core System Classes (Based on actual code)
     class QuestionBankSystem {
         +uploadQuestionBank(file)
         +generateSurvey(requirements)
         +analyzeResults(surveyData)
     }
     
-    %% Data Layer Classes
     class QuestionBank {
+        -String bankId
         -List~Question~ questions
         +addQuestion(question)
         +getQuestionsByCategory(category)
@@ -27,7 +26,37 @@ classDiagram
         -int difficulty
         -String language
         -List~String~ options
-        -String dedupKey
+    }
+    
+    class WebCrawler {
+        -List~Question~ allQuestions
+        +crawl_all()
+        +parse_survey_page(html, url, source_name)
+        +save_all()
+    }
+    
+    class DataProcessor {
+        +clean_question_text(text)
+        +normalize_for_dedup(text, lang)
+        +calculate_difficulty(row)
+        +load_and_process_data(filepath)
+    }
+    
+    class CategoryClassifier {
+        -Dict category_keywords
+        +reclassify_general_by_keywords(df, category_keywords)
+    }
+    
+    class TextMiningModel {
+        +categorizeQuestions(questions)
+        +extractKeywords(text)
+        +analyzeRequirements(requirements)
+    }
+    
+    class SurveyGenerator {
+        -SurveyRequirement requirements
+        +generate_survey(df, lang, target_count)
+        +generate_questionnaire(req_path, db_path)
     }
     
     class SurveyRequirement {
@@ -37,52 +66,45 @@ classDiagram
         -String userInput
     }
     
-    %% Processing Engine Classes (From actual code)
-    class WebCrawler {
-        +crawl_all()
-        +parse_survey_pages()
-        +extract_questions()
-        +save_all()
-    }
-    
-    class DataProcessor {
-        +clean_question_text()
-        +normalize_for_dedup()
-        +calculate_difficulty()
-        +load_and_process_data()
-    }
-    
-    class CategoryClassifier {
-        -Dict category_keywords
-        +reclassify_general_by_keywords()
-    }
-    
-    class SurveyGenerator {
-        +generate_survey()
-        +generate_questionnaire()
-    }
-    
-    class DataVisualization {
+    class DataVisualizer {
         +plot_difficulty_distribution()
         +plot_category_distribution()
         +plot_question_type_distribution()
     }
     
-    %% Core System Relationships
+    class FileExporter {
+        +export_to_json(questions, filepath)
+        +export_to_txt(questions, filepath)
+    }
+    
+    class TFIDFEngine {
+        +fit_transform(text_data, lang)
+        +calculate_similarity(req_vector, tfidf_matrix)
+    }
+
+    %% Core Management
     QuestionBankSystem --> QuestionBank : manages
-    QuestionBankSystem --> WebCrawler : uses
-    QuestionBankSystem --> SurveyGenerator : uses
+    QuestionBankSystem --> WebCrawler : controls
+    QuestionBankSystem --> DataProcessor : coordinates
+    QuestionBankSystem --> SurveyGenerator : orchestrates
+    QuestionBankSystem --> DataVisualizer : utilizes
+    
+    %% Data Collection & Storage
+    QuestionBank "1" --> "*" Question : contains
+    WebCrawler --> DataProcessor : provides raw data
     
     %% Data Processing Pipeline
-    WebCrawler --> QuestionBank : populates
-    DataProcessor --> QuestionBank : processes
-    CategoryClassifier --> Question : classifies
+    DataProcessor --> CategoryClassifier : sends for classification
+    DataProcessor --> TextMiningModel : sends for analysis
+    CategoryClassifier --> QuestionBank : stores categorized
+    TextMiningModel --> Question : analyzes content
     
     %% Survey Generation Flow
-    SurveyRequirement --> SurveyGenerator : input
-    QuestionBank --> SurveyGenerator : selects from
-    SurveyGenerator --> DataVisualization : visualizes
+    SurveyGenerator --> QuestionBank : selects from
+    SurveyGenerator --> SurveyRequirement : follows
+    SurveyGenerator --> TFIDFEngine : uses for matching
+    SurveyGenerator --> FileExporter : outputs through
     
-    %% Component Dependencies
-    DataProcessor --> CategoryClassifier : uses
-    SurveyGenerator --> DataProcessor : uses processing
+    %% Analysis & Visualization
+    DataVisualizer --> SurveyGenerator : visualizes results
+    TFIDFEngine --> TextMiningModel : utilizes NLP
