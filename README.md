@@ -21,6 +21,7 @@ Customer survey question bank generator - upload questions and generate customiz
 - `output_questionaire.txt` - output questionaire based on users requirement
 - `questionaire_requirements.json` - Questionnaire generator input configuration.
 - `questionaire_requirements_default.json` - Questionnaire generator's fallback/default configuration file.
+- `questions_reclassified/v2.json` - Reclassified travel survey questions dataset
 
 ## Class Description 
 ### Part 1: Data Crawling
