@@ -4,104 +4,100 @@ config:
   theme: mc
 ---
 classDiagram
-    class QuestionBankSystem {
+    %% Core System Classes
+    class SurveySystem {
         +uploadQuestionBank(file)
         +generateSurvey(requirements)
         +analyzeResults(surveyData)
     }
     
+    class WebApplication {
+        -Flask app
+        +index()
+        +download_json()
+        +download_txt()
+        +build_requirements_json()
+    }
+    
+    %% Data Layer Classes
     class QuestionBank {
-        -String bankId
-        -String category
         -List~Question~ questions
         +addQuestion(question)
         +getQuestionsByCategory(category)
-        +getRandomQuestions(count)
+        +reclassifyQuestions()
     }
     
     class Question {
         -String questionId
         -String text
         -String type
-        -List~String~ options
         -String category
         -int difficulty
         -String language
-        -String sourceUrl
-        -String sourceName
-    }
-    
-    class WebCrawler {
-        -Session session
-        -List~Question~ allQuestions
-        -Set seenQuestions
-        -Set seenUrls
-        -Dict stats
-        -String dataDir
-        +init_database()
-        +safe_get(url, timeout)
-        +is_travel_question(text)
-        +extract_options(options_list)
-        +determine_question_type(options_text, question_text)
-        +categorize_question(text)
-        +parse_wjx(html, url)
-        +parse_wenjuan(html, url)
-        +parse_jotform(html, url)
-        +parse_generic(html, url, source_name)
-        +parse_survey_page(html, url, source_name)
-        +extract_sublinks(html, base_url)
-        +crawl_with_fallback(url, source_name)
-        +get_all_urls()
-        +crawl_all()
-        +enhance_options()
-        +expand_to_6000()
-        +save_all()
-        +show_stats()
-    }
-    
-    class TextMiningModel {
-        +categorizeQuestions(questions)
-        +extractKeywords(text)
-        +analyzeRequirements(requirements)
-    }
-    
-    class SurveyGenerator {
-        -SurveyRequirement requirements
-        +generateQuestions(questionBank, requirements)
-        +selectByDifficulty(difficulty)
-        +selectByCategory(categories)
+        -List~String~ options
     }
     
     class SurveyRequirement {
         -int questionCount
         -List~String~ categories
-        -int targetDifficulty
-        -String audience
+        -String language
+        -String userInput
     }
     
-    class DataVisualizer {
-        -Dict chartTemplates
-        +createClusterVisualization(clusterData)
-        +createCategoryDistributionChart(categoryData)
-        +createComplexityAnalysisChart(complexityData)
-        +createPlatformComparisonChart(platformData)
-        +createSurveyProgressDashboard(surveyData)
-        +createQuestionRelationshipGraph(relationshipData)
-        +createUserAnalysisReport(userData)
-        +createAllUsersAnalysisReport(systemData)
-        +exportAllVisualizations(systemData)
+    %% Processing Engine Classes
+    class DataCollector {
+        +crawl_web_data()
+        +parse_survey_pages()
+        +extract_questions()
     }
     
-    QuestionBankSystem --> QuestionBank : manages
-    QuestionBankSystem --> WebCrawler : uses
-    QuestionBankSystem --> TextMiningModel : uses
-    QuestionBankSystem --> SurveyGenerator : uses
-    QuestionBankSystem --> DataVisualizer : uses
+    class DataProcessor {
+        +clean_question_text()
+        +normalize_for_dedup()
+        +calculate_difficulty()
+        +load_and_process_data()
+    }
     
-    QuestionBank "1" --> "*" Question : contains
-    WebCrawler --> QuestionBank : populates
-    TextMiningModel --> Question : analyzes
-    SurveyGenerator --> QuestionBank : selects from
-    SurveyGenerator --> SurveyRequirement : follows
-    DataVisualizer --> SurveyGenerator : visualizes output
-    DataVisualizer --> Question : analyzes patterns
+    class CategoryClassifier {
+        -Dict category_keywords
+        +reclassify_general_by_keywords()
+        +categorize_question()
+    }
+    
+    class SurveyGenerator {
+        -TFIDFEngine vectorizer
+        +generate_questionnaire()
+        +calculate_cosine_similarity()
+    }
+    
+    class DataAnalyzer {
+        +analyze_dataset_content()
+        +plot_difficulty_distribution()
+        +plot_category_distribution()
+        +plot_question_type_distribution()
+    }
+    
+    class FileExporter {
+        +export_to_json()
+        +export_to_txt()
+    }
+    
+    %% Core System Relationships
+    WebApplication --> SurveySystem : User Interaction
+    SurveySystem --> QuestionBank : Manages
+    SurveySystem --> SurveyGenerator : Generates Surveys
+    SurveySystem --> DataAnalyzer : Analyzes Results
+    
+    %% Data Processing Pipeline
+    DataCollector --> QuestionBank : Collects Data
+    DataProcessor --> QuestionBank : Cleans & Processes
+    CategoryClassifier --> QuestionBank : Classifies & Tags
+    
+    %% Survey Generation Flow
+    SurveyRequirement --> SurveyGenerator : Input Requirements
+    QuestionBank --> SurveyGenerator : Provides Questions
+    SurveyGenerator --> FileExporter : Outputs Results
+    
+    %% Component Dependencies
+    DataProcessor --> CategoryClassifier : Uses Classifier
+    DataAnalyzer --> Question : Analyzes Features
