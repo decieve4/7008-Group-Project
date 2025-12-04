@@ -2,6 +2,24 @@
 
 Customer survey question bank generator - upload questions and generate customized questionnaires.
 
+## Test Steps:
+1. **Start the service**:  
+   `python app.py`
+2. **Access via browser**:  
+   `http://localhost:5000`
+3. **Enter questionnaire requirements**:  
+   - Number of questions  
+   - Category preferences  
+   - Other relevant parameters
+4. **Click the "Generate Questionnaire" button**
+5. **Verify page display**:  
+   - Check if the generated questionnaire is displayed correctly
+6. **Download results**:  
+   - Download in JSON format  
+   - Download in TXT format
+7. **Validate output files**:  
+   - Check if `output_questionaire.json` is correctly generated
+
 ## Files
 ### Code Documentation
 - `Q3-code.py` - Travel Questionnaire Crawler System: Automatically collects, parses, categorizes, and stores travel survey questions.
