@@ -19,6 +19,10 @@ Customer survey question bank generator - upload questions and generate customiz
    - Download in TXT format
 7. **Validate output files**:  
    - Check if `output_questionaire.json` is correctly generated
+### Independent Module Testing
+- **Data Crawling Module**: Run `python Q3_code.py` to test data crawling functionality
+- **Questionnaire Generation Module**: Run `python Q5_v2.py` to test command-line generation (requires configuration of `questionaire_requirements.json`)
+- **Visualization Module**: Run `python plots.py` to generate data analysis charts
 > **Note**: Ensure all required Python dependencies are installed before running.
 
 ## Files
