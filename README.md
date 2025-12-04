@@ -8,8 +8,8 @@ Customer survey question bank generator - upload questions and generate customiz
 2. **Access via browser**:  
    `http://localhost:5000`
 3. **Enter questionnaire requirements**:  
-   - Number of questions  
-   - Category preferences  
+   - requirements(like topic)
+   - Number of questions
    - Other relevant parameters
 4. **Click the "Generate Questionnaire" button**
 5. **Verify page display**:  
