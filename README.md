@@ -19,6 +19,7 @@ Customer survey question bank generator - upload questions and generate customiz
    - Download in TXT format
 7. **Validate output files**:  
    - Check if `output_questionaire.json` is correctly generated
+> **Note**: Ensure all required Python dependencies are installed before running.
 
 ## Files
 ### Code Documentation
