@@ -4,7 +4,7 @@ Customer survey question bank generator - upload questions and generate customiz
 
 ## Test Steps:
 1. **Start the service**:  
-   `python app.py`
+   `app.py`
 2. **Access via browser**:  
    `http://localhost:5000`
 3. **Enter questionnaire requirements**:  
